@@ -1,50 +1,9 @@
-const path = require("path");
-const ImageminPlugin = require("imagemin-webpack");
-const imageminGifsicle = require("imagemin-gifsicle");
-const imageminJpegtran = require("imagemin-jpegtran");
-const imageminOptipng = require("imagemin-optipng");
-const imageminSvgo = require("imagemin-svgo");
+const prodConfig = require("./webpack.config.prod.js");
+const devConfig = require("./webpack.config.dev.js");
 
-module.exports = {
-  entry: {},
-  output: {
-    file: "[name].js",
-    path: path.resolve(__dirname, "dist")
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /(node_modules)/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env"]
-          }
-        }
-      },
-      {
-        test: /\.(scss|sass)$/,
-        use: [
-          {
-            loader: "style-loader"
-          },
-          {
-            loader: "css-loader"
-          },
-          {
-            loader: "postcss-loader",
-            options: {
-              config: {
-                path: "./.config"
-              }
-            }
-          },
-          {
-            loader: "sass-loader"
-          }
-        ]
-      }
-    ]
-  }
-};
+function webpackEnviromentSelector(env) {
+  if (env.production) return prodConfig;
+  if (env.devConfig) return devConfig;
+  return devConfig;
+}
+module.exports = webpackEnviromentSelector;
