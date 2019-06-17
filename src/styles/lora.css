@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Lora", serif;
+  font-display: swap;
+  src: url("/dist/fonts/lora-regular.eot");
+  src: url("/dist/fonts/lora-regular.woff2") format("woff2");
+  src: url("/dist/fonts/lora-regular.woff") format("woff");
+  src: url("/dist/fonts/lora-regular.ttf") format("truetype");
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 23px;
+}
