@@ -20,6 +20,7 @@ html, body
     scroll-behavior: smooth
     font-size: 14px
     font-family: "Raleway", sans-serif
+    color: #242424
     @include media-breakpoint-up(md)
         font-size: 15px
 
@@ -63,5 +64,29 @@ h1
         opacity: 0.5
         z-index: 1
 
+.nav-link
+    color: #FCFCFC
+    transition: 250ms linear all
+    &:hover
+        color: #C6C6C6
+    span
+        color: #FF3236
+        transition: 250ms linear all
+        &:hover
+            color: #C63033
+
 .navbar-initial
     border-bottom: 1px solid #FCFCFC
+
+.arrow-down
+    border: solid black
+    border-width: 0 3px 3px 0
+    display: inline-block
+    padding: 3px
+    transform: rotate(45deg)
+
+.absolute-bottom
+    bottom: 0
+
+.text-white
+    color: #FCFCFC !important
