@@ -98,7 +98,7 @@ const config = {
         ]
       },
       {
-        test: /\.(eot|woff|ttf|svg|woff2)(\?v=\d+\.\d+\.\d+)?$/,
+        test: /\.(eot|woff|ttf|woff2)(\?v=\d+\.\d+\.\d+)?$/,
         exclude: /(node_modules)/,
         use: [
           {
