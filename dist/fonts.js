@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"@font-face{font-family:Lora,serif;font-display:swap;src:url(/dist/fonts/lora-regular.eot);src:url(/dist/fonts/lora-regular.woff2) format(\\\"woff2\\\");src:url(/dist/fonts/lora-regular.woff) format(\\\"woff\\\");src:url(/dist/fonts/lora-regular.ttf) format(\\\"truetype\\\");font-style:normal;font-variant:normal;font-weight:700;line-height:23px}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/lora.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"@font-face{font-family:Lora,serif;font-display:swap;src:url(/dist/fonts/lora-regular.eot);src:url(/dist/fonts/lora-regular.woff2) format(\\\"woff2\\\");src:url(/dist/fonts/lora-regular.woff) format(\\\"woff\\\");src:url(/dist/fonts/lora-regular.ttf) format(\\\"truetype\\\");font-style:normal;font-variant:normal;font-weight:100;line-height:23px}\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/styles/lora.css?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--6-2");
 
 /***/ }),
 
