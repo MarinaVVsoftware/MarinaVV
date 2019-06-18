@@ -43,6 +43,17 @@ h1
 .text-white
     color: $white !important
 
+.btn-blue
+    background-color: $blue
+    color: $white
+    border-radius: 0
+    transition: all 250ms linear
+    &:hover
+        background-color: $strongBlue
+        color: #C6C6C6
+        text-decoration: none
+
+
 .video-header
     position: relative
     background-color: black
@@ -112,6 +123,10 @@ h1
 
 
 .floating-section
-    min-height: 250px
+    min-height: 300px
     height: 100%
-    
+    img
+        position: relative
+        @include media-breakpoint-up(md)
+            bottom: 40px
+
