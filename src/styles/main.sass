@@ -15,17 +15,33 @@
 @import "node_modules/bootstrap/scss/custom-forms"
 @import "node_modules/bootstrap/scss/utilities"
 
+$white: #FCFCFC
+$red: #FF3236
+$blue: #11304C
+$strongBlue: #071726
+
+
 html, body
     position: relative
     scroll-behavior: smooth
     font-size: 14px
     font-family: "Raleway", sans-serif
+    color: #242424
+    background-color: $white
     @include media-breakpoint-up(md)
         font-size: 15px
 
 h1
     font-family: "Lora", serif
     font-weight: 100
+    letter-spacing: 2px
+    font-size: 2.3rem
+
+.background-blue
+    background-color: $blue !important
+
+.text-white
+    color: $white !important
 
 .video-header
     position: relative
@@ -63,5 +79,39 @@ h1
         opacity: 0.5
         z-index: 1
 
+.nav-link
+    color: $white
+    transition: 250ms linear all
+    &:hover
+        color: #C6C6C6
+    span
+        color: #FF3236
+        transition: 250ms linear all
+        &:hover
+            color: #C63033
+
 .navbar-initial
-    border-bottom: 1px solid #FCFCFC
+    border-bottom: 1px solid $white
+    @include gradient-y(#000, rgba(0, 0, 0, 0), 0%, 60%)
+
+.arrow-down
+    border: solid #FF3236
+    border-width: 0 3px 3px 0
+    display: inline-block
+    padding: 5px
+    transform: rotate(45deg)
+
+.absolute-bottom
+    bottom: 0
+
+.absolute-right
+    right: 0
+
+.text-white
+    color: $white !important
+
+
+.floating-section
+    min-height: 250px
+    height: 100%
+    
