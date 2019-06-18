@@ -67,29 +67,19 @@
                         </a>
                     </div>
                     <div class="my-3 py-3">
-                        <p class="text-white">Dirección: Calle Vialidad Paseo Mujeres Manzana 1, Lote 1 Zona Continental Isla Mujeres Q. Roo.</p>
+                        <p class="text-white">{{ footer.address }}</p>
                         <div>
-                            <p class="text-white d-inline-block mx-3">Llámanos: +52 (998) 234 01 0</p>
-                            <p class="text-white d-inline-block mx-3">Email: info@marinavv.com</p>
+                            <p class="text-white d-inline-block mx-3">+52 (998) 234 01 0</p>
+                            <p class="text-white d-inline-block mx-3">info@marinavv.com</p>
                         </div>
                     </div>
                     <div class="mb-2">
                         <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Marina V&amp;V</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Marina Novo</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Astillero</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Prodcutos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
-                            </li>
+                            {% for item in footer.menu %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ item.link }}">{{ item.text }}</a>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>

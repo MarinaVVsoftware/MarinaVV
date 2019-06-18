@@ -1,4 +1,6 @@
 <?php
+    require "content/es/principal.php";
+    
     $navbar = [
         [
             "name" => "MARINAS",
@@ -26,5 +28,31 @@
             "link" => "#"
         ]
 
+    ];
+
+    $footer = [
+        "address" => "Calle Vialidad Paseo Mujeres Manzana 1, Lote 1 Zona Continental Isla Mujeres Q. Roo.",
+        "menu" => [
+            [
+                "text" => "Marina V&V",
+                "link" => "#"
+            ],
+            [
+                "text" => "Marina Novo",
+                "link" => "#"
+            ],
+            [
+                "text" => "Astillero",
+                "link" => "#"
+            ],
+            [
+                "text" => "Productos",
+                "link" => "#"
+            ],
+            [
+                "text" => "Contacto",
+                "link" => "#"
+            ]
+        ]
     ]
 ?>
