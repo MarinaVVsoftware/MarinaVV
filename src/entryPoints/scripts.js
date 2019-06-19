@@ -4,3 +4,4 @@ import "../scripts/hamburger";
 import "../scripts/navbarScroll";
 import "../scripts/masonry";
 import "../scripts/swiper";
+import "../scripts/jqueryInit";
