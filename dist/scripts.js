@@ -161,7 +161,7 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/js/dist/collapse */ \"./node_modules/bootstrap/js/dist/collapse.js\");\n/* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/js/dist/dropdown */ \"./node_modules/bootstrap/js/dist/dropdown.js\");\n/* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scripts_hamburger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scripts/hamburger */ \"./src/scripts/hamburger.js\");\n/* harmony import */ var _scripts_hamburger__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scripts_hamburger__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n//# sourceURL=webpack:///./src/entryPoints/scripts.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/js/dist/collapse */ \"./node_modules/bootstrap/js/dist/collapse.js\");\n/* harmony import */ var bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_collapse__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/js/dist/dropdown */ \"./node_modules/bootstrap/js/dist/dropdown.js\");\n/* harmony import */ var bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_js_dist_dropdown__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _scripts_hamburger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scripts/hamburger */ \"./src/scripts/hamburger.js\");\n/* harmony import */ var _scripts_hamburger__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scripts_hamburger__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _scripts_navbarScroll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../scripts/navbarScroll */ \"./src/scripts/navbarScroll.js\");\n/* harmony import */ var _scripts_navbarScroll__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scripts_navbarScroll__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n//# sourceURL=webpack:///./src/entryPoints/scripts.js?");
 
 /***/ }),
 
@@ -173,6 +173,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
 /***/ (function(module, exports) {
 
 eval("/**\r\n *\r\n * Toggle the hamburger icon in the navbar\r\n */\nvar hamburger = document.querySelector(\".hamburger\");\nhamburger.addEventListener(\"click\", function () {\n  hamburger.classList.toggle(\"is-active\");\n});\n\n//# sourceURL=webpack:///./src/scripts/hamburger.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/navbarScroll.js":
+/*!*************************************!*\
+  !*** ./src/scripts/navbarScroll.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("window.addEventListener(\"scroll\", function (e) {\n  var y = window.scrollY;\n  scrollNavbar(y);\n});\n\nfunction scrollNavbar(y) {\n  try {\n    var navbar = document.getElementById(\"navbar\");\n\n    if (y > 450) {\n      navbar.classList.remove(\"navbar-initial\");\n      navbar.classList.add(\"navbar-scroll\");\n    } else {\n      navbar.classList.remove(\"navbar-scroll\");\n      navbar.classList.add(\"navbar-initial\");\n    }\n  } catch (err) {\n    console.log(err);\n  }\n}\n\n//# sourceURL=webpack:///./src/scripts/navbarScroll.js?");
 
 /***/ })
 

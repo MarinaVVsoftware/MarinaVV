@@ -94,7 +94,18 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/marinavv-logo.svg */ \"./src/images/marinavv-logo.svg\");\n/* harmony import */ var _images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/entryPoints/images.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../images/marinavv-logo.svg */ \"./src/images/marinavv-logo.svg\");\n/* harmony import */ var _images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_images_marinavv_logo_svg__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_facebook_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/facebook-logo.png */ \"./src/images/facebook-logo.png\");\n/* harmony import */ var _images_facebook_logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_facebook_logo_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _images_twitter_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/twitter-logo.png */ \"./src/images/twitter-logo.png\");\n/* harmony import */ var _images_twitter_logo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_twitter_logo_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _images_youtube_logo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/youtube-logo.png */ \"./src/images/youtube-logo.png\");\n/* harmony import */ var _images_youtube_logo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_youtube_logo_png__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n//# sourceURL=webpack:///./src/entryPoints/images.js?");
+
+/***/ }),
+
+/***/ "./src/images/facebook-logo.png":
+/*!**************************************!*\
+  !*** ./src/images/facebook-logo.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/facebook-logo.png\";\n\n//# sourceURL=webpack:///./src/images/facebook-logo.png?");
 
 /***/ }),
 
@@ -106,6 +117,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ima
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("module.exports = __webpack_require__.p + \"images/marinavv-logo.svg\";\n\n//# sourceURL=webpack:///./src/images/marinavv-logo.svg?");
+
+/***/ }),
+
+/***/ "./src/images/twitter-logo.png":
+/*!*************************************!*\
+  !*** ./src/images/twitter-logo.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/twitter-logo.png\";\n\n//# sourceURL=webpack:///./src/images/twitter-logo.png?");
+
+/***/ }),
+
+/***/ "./src/images/youtube-logo.png":
+/*!*************************************!*\
+  !*** ./src/images/youtube-logo.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"images/youtube-logo.png\";\n\n//# sourceURL=webpack:///./src/images/youtube-logo.png?");
 
 /***/ })
 
