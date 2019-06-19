@@ -2,7 +2,6 @@
     require "init.php";
 
     $params = [
-        'test' => "test",
         'navbar' => $navbar,
         'principalTitle' => $principalTitle,
         'aboutUs' => $aboutUs,
