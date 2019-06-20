@@ -1,0 +1,80 @@
+{% extends "_main.twig" %}
+{% block body %}
+    <header class="hero">
+        <div id="map"></div>
+        <div class="overlay"></div>
+    </header>
+
+    <main>
+        <section class="container-fluid py-5 my-md-5 px-0" id="contact">
+            <h1 class="text-center pb-5">CONTACTO</h1>
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-6">
+                    <img class="w-100 img-fluid" src="https://via.placeholder.com/800x400">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row no-gutters text-center text-lg-left">
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>Ventas y Servicios</h4>
+                            <p class="mb-0">+52 (998) 234 01 00</p>
+                            <p class="mb-0">info@marinavv.com</p>
+                            <p class="mb-0">reservas@marinavv.com</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>Ventas y Servicios</h4>
+                            <p class="mb-0">+52 (998) 234 01 00</p>
+                            <p class="mb-0">info@marinavv.com</p>
+                            <p class="mb-0">reservas@marinavv.com</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>Ventas y Servicios</h4>
+                            <p class="mb-0">+52 (998) 234 01 00</p>
+                            <p class="mb-0">info@marinavv.com</p>
+                            <p class="mb-0">reservas@marinavv.com</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>Ventas y Servicios</h4>
+                            <p class="mb-0">+52 (998) 234 01 00</p>
+                            <p class="mb-0">info@marinavv.com</p>
+                            <p class="mb-0">reservas@marinavv.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pb-5">
+            <form action="">
+                <div class="row">
+                    <div class="col-12 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-12 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="formGroupExampleInput">Example label</label>
+                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                    </div>
+                </div>
+                <a class="btn-lg px-5 py-3 btn-blue" href="{{ contactInfo.btn.link }}">Enviar</a>
+            </form>
+        </section>
+    </main>
+{% endblock %}

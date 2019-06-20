@@ -11,11 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "bootstrap": "^4.3.1",
     "imagesloaded": "^4.1.4",
     "jquery": "^3.4.1",
     "masonry-layout": "^4.2.2",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "swiper": "^4.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
