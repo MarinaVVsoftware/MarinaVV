@@ -13,7 +13,9 @@
                 </div>
                 <div class="w-100 position-absolute absolute-bottom absolute-right py-2">
                     <p class="text-white m-0">SCROLL</p>
-                    <span class="arrow-down"></span>
+                    <a href="#aboutUs">
+                        <span class="arrow-down"></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -21,18 +23,19 @@
 
     <main>
         <section class="container text-center py-5 my-md-5" id="aboutUs">
-            <h1>{{ aboutUs.title }}</h1>
+            <h1 class="pt-3">{{ aboutUs.title }}</h1>
             <p>{{ aboutUs.text }}</p>
         </section>
 
         <section class="container-fluid background-blue floating-section px-0 my-md-5" id="nationalQuality">
             <div class="row no-gutters">
                 <div class="col-12 col-lg-7">
-                    <img alt="" class="img-fluid w-100" src="https://via.placeholder.com/900x400">
+                    <img alt="" class="img-fluid w-100" src="dist/images/marinavv-principal.jpg">
                 </div>
                 <div class="col-12 col-lg-5 px-3 px-lg-5 py-5 py-md-2 pt-lg-5 text-center text-lg-left">
                     <h1 class="text-white">{{ nationalQuality.title }}</h1>
-                    <p class="text-white px-md-5">{{ nationalQuality.text }}</p>
+                    <p class="text-white px-xl-5 d-none d-xl-block">{{ nationalQuality.text }}</p>
+                    <p class="text-white px-xl-5">{{ nationalQuality.text2 }}</p>
                 </div>
             </div>
         </section>

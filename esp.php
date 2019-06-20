@@ -1,5 +1,6 @@
 <?php
     require "content/es/principal.php";
+    require "content/es/marinavv.php";
     
     $navbar = [
         [

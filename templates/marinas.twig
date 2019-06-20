@@ -2,84 +2,37 @@
 {% block body %}
     <header class="hero">
         <picture>
-            <source media="(max-width: 768px)" srcset="https://via.placeholder.com/500x400">
-            <source media="(min-width: 769px)" srcset="https://via.placeholder.com/1900x550">
-            <img src="https://via.placeholder.com/1900x550">
+            <source media="(max-width: 768px)" srcset="{{ hero.srcMob }}">
+            <source media="(min-width: 769px)" srcset="{{ hero.src }}">
+            <img src="{{ hero.src }}">
         </picture>
         <div class="overlay"></div>
-        <h2 class="title text-center mb-5">MARINA V&amp;V</h2>
+        <h2 class="title text-center mb-5">{{ hero.title }}</h2>
     </header>
     <main>
         <section class="container pt-5 mt-md-5 text-center" id="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit. Pellentesque tempus urna quam, eu lacinia tellus blandit eu. Integer ultricies tellus vitae varius cursus.</p>
+            <p>{{ description }}</p>
         </section>
         <section class="container-fluid pt-5 mt-md-5">
             <div class="grid">
-                <div class="grid-item">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/120x250">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--width2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x250">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x122">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x122">
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/120x250">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--width2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x250">
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/120x250">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--width2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x250">
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/120x250">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x122">
-                    </a>
-                </div>
-                <div class="grid-item grid-item--height2">
-                    <a data-fancybox="gallery" href="https://via.placeholder.com/120x250">
-                        <img class="w-100 h-100 img-fluid" src="https://via.placeholder.com/250x122">
-                    </a>
-                </div>
+                {% for item in gallery %}
+                    <div class="grid-item {{ item.class }}">
+                        <a data-fancybox="gallery" href="{{ item.img }}">
+                            <img class="w-100 h-100 img-fluid" src="{{ item.imgThumbnail }}">
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </section>
 
         <section class="pt-5 mt-md-5" id="services">
             <div class="container text-center mb-5 pb-1">
-                <h1>SERVICIOS</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan</p>
+                <h1>{{ services.title }}</h1>
+                <p>{{ services.description }}</p>
             </div>
             <div class="container-fluid text-center">
                 <div class="row">
+                    {% for item in items %}{% endfor %}
                     <div class="col-6 col-md-4 col-lg-3 mb-5">
                         <img alt="" class="img-fluid" src="https://via.placeholder.com/70">
                         <h4 class="mb-0 mt-2">Almacenamiento</h4>
