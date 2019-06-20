@@ -2,8 +2,9 @@
     require "init.php";
 
     $params = [
-        'test' => "test",
-        'navbar' => $navbar
+        
+        'navbar' => $navbar,
+        'footer' => $footer
     ];
     $template = $twig->load('astillero.twig');
     echo $template->render($params);
