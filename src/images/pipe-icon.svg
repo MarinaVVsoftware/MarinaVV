@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89.784" height="72" viewBox="0 0 89.784 72">
+  <g id="pipe" transform="translate(1 1)">
+    <path id="Trazado_191" data-name="Trazado 191" d="M0,235.631v20.574a2.572,2.572,0,0,0,2.572,2.572H19.382V233.059H2.572A2.572,2.572,0,0,0,0,235.631Zm0,0" transform="translate(0 -193.1)" fill="none" stroke="#11304c" stroke-width="2"/>
+    <path id="Trazado_192" data-name="Trazado 192" d="M172.7,194.609v-4.483a2.618,2.618,0,0,0-.034-.4H152.157a2.542,2.542,0,0,0-.034.4v4.486l-3.718,2.544h-5.363v25.718h5.714a7.271,7.271,0,0,1,2.942.583c.638.263,1.34.556,2.061.857,2.286.954,4.651,1.941,6.04,2.428a7.709,7.709,0,0,0,5.217,0c1.777-.623,5.509-2.148,8.163-3.264a7.278,7.278,0,0,1,2.992-.6h5.617V197.156h-5.376Zm0,0" transform="translate(-118.517 -157.197)" fill="none" stroke="#11304c" stroke-width="2"/>
+    <path id="Trazado_193" data-name="Trazado 193" d="M415.838,233.059h-16.8v25.718h16.8a2.572,2.572,0,0,0,2.572-2.572V235.631a2.572,2.572,0,0,0-2.572-2.572Zm0,0" transform="translate(-330.626 -193.1)" fill="none" stroke="#11304c" stroke-width="2"/>
+    <path id="Trazado_194" data-name="Trazado 194" d="M158.863,0h-37.72a5.144,5.144,0,1,0,0,10.287h37.72a5.144,5.144,0,1,0,0-10.287Zm0,0" transform="translate(-96.111)" fill="none" stroke="#11304c" stroke-width="2"/>
+    <path id="Trazado_195" data-name="Trazado 195" d="M226,90h10.287v11.955H226Zm0,0" transform="translate(-187.251 -74.569)" fill="none" stroke="#11304c" stroke-width="2"/>
+  </g>
+</svg>

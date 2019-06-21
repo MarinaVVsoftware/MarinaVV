@@ -80,60 +80,54 @@
     $services = [
         "title" => "SERVICIOS",
         "description" => "Nuestro personal espera para satisfacer completamente las necesidades de nuestros clientes ofreciendo un excelente servicio a los precios más competitivos.",
-        "gallery" => [
+        "items" => [
             [
-                "img" => "dist/images/marina-icon.jpg",
+                "img" => "dist/images/marina-icon.svg",
                 "alt" => "",
                 "title" => "Servicio de Amarre",
                 "description" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/flash-icon.svg",
                 "alt" => "",
-                "title" => "Agua y Electricidad",
-                "description" => "Servicio de Agua y electricidad con el amperaje requerido para su embarcación."
+                "title" => "Electricidad",
+                "description" => "Servicio electricidad con el amperaje requerido para su embarcación."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/police-icon.svg",
                 "alt" => "",
                 "title" => "Servicios de Inmigración",
                 "description" => "Servicios de inmigración para embarcaciones que llegan del extranjero."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/bell-icon.svg",
                 "alt" => "",
                 "title" => "Congierge",
                 "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/gas-icon.svg",
                 "alt" => "",
                 "title" => "Suministro de Combustible",
                 "description" => "Somos la única marina con estación de combustible que cuenta con una certificación de 0% de agua."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/pipe-icon.svg",
                 "alt" => "",
                 "title" => "Desazolve",
                 "description" => "Servicio de desazolve los 365 días del año."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/warehouse-icon.svg",
                 "alt" => "",
                 "title" => "Almacenamiento",
                 "description" => "Contamos con bodegas exclusivas para resguardo de artículos de su embarcación."
             ],
             [
-                "img" => "",
+                "img" => "dist/images/van-icon.svg",
                 "alt" => "",
                 "title" => "Transportación",
                 "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
-            ],
-            [
-                "img" => "",
-                "alt" => "",
-                "title" => "WIFI",
-                "description" => "Contamos con redes inálambricas de internet en gran parte de la marina."
             ]
         ]
     ];
@@ -144,15 +138,15 @@
         "listFeatures" => [ "Servicio", "Servicio", "Servicio" ],
         "gallery" => [
             [
-                "img" => "",
+                "img" => "dist/images/store-1.jpg",
                 "alt" => ""
             ],
             [
-                "img" => "",
+                "img" => "dist/images/store-2.jpg",
                 "alt" => ""
             ],
             [
-                "img" => "",
+                "img" => "dist/images/store-3.jpg",
                 "alt" => ""
             ]
         ],

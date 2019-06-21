@@ -1,5 +1,12 @@
 import "../images/marinavv-logo.svg";
 import "../images/marina-icon.svg";
+import "../images/gas-icon.svg";
+import "../images/van-icon.svg";
+import "../images/police-icon.svg";
+import "../images/flash-icon.svg";
+import "../images/pipe-icon.svg";
+import "../images/warehouse-icon.svg";
+import "../images/bell-icon.svg";
 import "../images/facebook-logo.png";
 import "../images/twitter-logo.png";
 import "../images/youtube-logo.png";
@@ -34,3 +41,7 @@ import "../images/marinavvGallery/marinavv-gallery-8.jpg";
 import "../images/marinavvGallery/marinavv-gallery-9.jpg";
 import "../images/marinavvGallery/marinavv-gallery-10.jpg";
 import "../images/marinavvGallery/marinavv-gallery-11.jpg";
+
+import "../images/store-1.jpg";
+import "../images/store-2.jpg";
+import "../images/store-3.jpg";
