@@ -106,12 +106,6 @@
                 "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
             ],
             [
-                "img" => "dist/images/gas-icon.svg",
-                "alt" => "",
-                "title" => "Suministro de Combustible",
-                "description" => "Somos la única marina con estación de combustible que cuenta con una certificación de 0% de agua."
-            ],
-            [
                 "img" => "dist/images/pipe-icon.svg",
                 "alt" => "",
                 "title" => "Desazolve",
@@ -121,13 +115,19 @@
                 "img" => "dist/images/warehouse-icon.svg",
                 "alt" => "",
                 "title" => "Almacenamiento",
-                "description" => "Contamos con bodegas exclusivas para resguardo de artículos de su embarcación."
+                "description" => "Bodegas exclusivas para resguardo de artículos de su embarcación."
             ],
             [
                 "img" => "dist/images/van-icon.svg",
                 "alt" => "",
                 "title" => "Transportación",
                 "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
+            ],
+            [
+                "img" => "dist/images/gas-icon.svg",
+                "alt" => "",
+                "title" => "Suministro de Combustible",
+                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua."
             ]
         ]
     ];
@@ -154,8 +154,8 @@
     ];
 
     $contact = [
-        "title" => "CONTÁCTANOS",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus.",
+        "title" => "COTIZAR ESTADÍA",
+        "description" => "Contáctanos ahora para reservar en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/banner-marina.jpg",
         "alt" => "",
         "btn" => [
@@ -167,7 +167,7 @@
     $location = [
         "title" => "UBICACIÓN",
         "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
-        "lat" => "",
-        "lng" => ""
+        "lat" => "21.2379962",
+        "lng" => "-86.8032239"
     ];
 ?>
