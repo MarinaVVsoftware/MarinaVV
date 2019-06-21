@@ -45,3 +45,5 @@ import "../images/marinavvGallery/marinavv-gallery-11.jpg";
 import "../images/store-1.jpg";
 import "../images/store-2.jpg";
 import "../images/store-3.jpg";
+
+import "../images/banner-marina.jpg";

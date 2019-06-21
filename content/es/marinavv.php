@@ -134,8 +134,8 @@
 
     $amenity = [
         "title" => "V&V Store",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa  accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a  condimentum risus. Vestibulum facilisis libero eu dapibus blandit. Pellentesque tempus urna quam, eu lacinia tellus blandit eu. Integer ultricies tellus vitae varius cursus.",
-        "listFeatures" => [ "Servicio", "Servicio", "Servicio" ],
+        "description" => "Nuestra tienda V&V Store, cuenta con una amplia diversidad de productos como botanas, café, cervezas, vinos, agua, refresco, hielo, entre muchas otras. Contamos con servicio de entrega de los productos a tu embarcación para tu comodidad, además, de una sala de entretenimiento para los capitanes donde pueden tener descanso y recreación.",
+        "listFeatures" => [ "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados", "Billar", "Videojuegos", "Sala de recreación" ],
         "gallery" => [
             [
                 "img" => "dist/images/store-1.jpg",
@@ -156,6 +156,8 @@
     $contact = [
         "title" => "CONTÁCTANOS",
         "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus.",
+        "img" => "dist/images/banner-marina.jpg",
+        "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
             "link" => "#"
@@ -164,8 +166,8 @@
 
     $location = [
         "title" => "UBICACIÓN",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit. Pellentesque tempus urna quam, eu lacinia tellus blandit eu. Integer ultricies tellus vitae varius cursus.",
-        "img" => "",
-        "alt" => ""
+        "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
+        "lat" => "",
+        "lng" => ""
     ];
 ?>
