@@ -1,17 +1,18 @@
 <?php
     require "content/es/principal.php";
     require "content/es/marinavv.php";
+    require "content/es/marinaNovo.php";
     
     $navbar = [
         [
             "name" => "MARINAS",
             "dropdown" => [
                 [
-                    "name" => "V&V",
+                    "name" => "NOVO CANCÚN",
                     "link" => "#"
                 ],
                 [
-                    "name" => "NOVO CANCÚN",
+                    "name" => "V&V",
                     "link" => "#"
                 ]
             ]

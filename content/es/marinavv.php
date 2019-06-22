@@ -1,14 +1,14 @@
 <?php
-    $hero = [
+    $marinavvHero = [
         "title" => "MARINA V&V",
         "src" => "dist/images/marinavv-hero.jpg",
         "srcMob" => "dist/images/marinavv-hero-mob.jpg",
         "alt" => ""
     ];
     
-    $description = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
+    $marinavvDescription = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
 
-    $gallery = [
+    $marinavvGallery = [
         [
             "class" => "",
             "img" => "dist/images/marinavv-gallery-1.jpg",
@@ -77,7 +77,7 @@
         ]
     ];
 
-    $services = [
+    $marinavvServices = [
         "title" => "SERVICIOS",
         "description" => "Nuestro personal espera para satisfacer completamente las necesidades de nuestros clientes ofreciendo un excelente servicio a los precios más competitivos.",
         "items" => [
@@ -132,8 +132,8 @@
         ]
     ];
 
-    $amenity = [
-        "title" => "V&V Store",
+    $marinavvAmenity = [
+        "title" => "V&V STORE",
         "description" => "Nuestra tienda V&V Store, cuenta con una amplia diversidad de productos como botanas, café, cervezas, vinos, agua, refresco, hielo, entre muchas otras. Contamos con servicio de entrega de los productos a tu embarcación para tu comodidad, además, de una sala de entretenimiento para los capitanes donde pueden tener descanso y recreación.",
         "listFeatures" => [ "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados", "Billar", "Videojuegos", "Sala de recreación" ],
         "gallery" => [
@@ -153,7 +153,7 @@
 
     ];
 
-    $contact = [
+    $marinavvContact = [
         "title" => "COTIZAR ESTADÍA",
         "description" => "Contáctanos ahora para reservar en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/banner-marina.jpg",
@@ -164,7 +164,7 @@
         ]
     ];
 
-    $location = [
+    $marinavvLocation = [
         "title" => "UBICACIÓN",
         "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
         "lat" => "21.2379962",
