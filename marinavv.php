@@ -10,7 +10,7 @@
         "amenity" => $marinavvAmenity,
         "contact" => $marinavvContact,
         "location" => $marinavvLocation,
-        'footer' => $Footer
+        'footer' => $footer
     ];
     $template = $twig->load('marinas.twig');
     echo $template->render($params);

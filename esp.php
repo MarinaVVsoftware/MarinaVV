@@ -2,6 +2,7 @@
     require "content/es/principal.php";
     require "content/es/marinavv.php";
     require "content/es/marinaNovo.php";
+    require "content/es/products.php";
     
     $navbar = [
         [

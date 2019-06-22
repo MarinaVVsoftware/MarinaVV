@@ -29,7 +29,6 @@ import "../images/marinavvGallery/marinavv-gallery-thumbnail-8.jpg";
 import "../images/marinavvGallery/marinavv-gallery-thumbnail-9.jpg";
 import "../images/marinavvGallery/marinavv-gallery-thumbnail-10.jpg";
 import "../images/marinavvGallery/marinavv-gallery-thumbnail-11.jpg";
-
 import "../images/marinavvGallery/marinavv-gallery-1.jpg";
 import "../images/marinavvGallery/marinavv-gallery-2.jpg";
 import "../images/marinavvGallery/marinavv-gallery-3.jpg";
@@ -65,18 +64,39 @@ import "../images/marinaNovoGallery/marinanovo-gallery-9.jpg";
 import "../images/marinaNovoGallery/marinanovo-gallery-10.jpg";
 import "../images/marinaNovoGallery/marinanovo-gallery-11.jpg";
 
+import "../images/productsGallery/products-gallery-thumbnail-1.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-2.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-3.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-4.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-5.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-6.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-7.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-8.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-9.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-10.jpg";
+import "../images/productsGallery/products-gallery-thumbnail-11.jpg";
+import "../images/productsGallery/products-gallery-1.jpg";
+import "../images/productsGallery/products-gallery-2.jpg";
+import "../images/productsGallery/products-gallery-3.jpg";
+import "../images/productsGallery/products-gallery-4.jpg";
+import "../images/productsGallery/products-gallery-5.jpg";
+import "../images/productsGallery/products-gallery-6.jpg";
+import "../images/productsGallery/products-gallery-7.jpg";
+import "../images/productsGallery/products-gallery-8.jpg";
+import "../images/productsGallery/products-gallery-9.jpg";
+import "../images/productsGallery/products-gallery-10.jpg";
+import "../images/productsGallery/products-gallery-11.jpg";
+
 import "../images/store-1.jpg";
 import "../images/store-2.jpg";
 import "../images/store-3.jpg";
-
 import "../images/banner-marina.jpg";
 import "../images/marker.png";
-
 import "../images/marinanovo-hero.jpg";
 import "../images/marinanovo-hero-mob.jpg";
-
 import "../images/marinatown-1.jpg";
 import "../images/marinatown-2.jpg";
 import "../images/hotelzone-1.jpg";
-
 import "../images/novo-banner.jpg";
+import "../images/products-hero.jpg";
+import "../images/products-hero-mob.jpg";
