@@ -57,7 +57,7 @@
         ],
         [
             "title" => "Propulsión",
-            "icon" => "dist/images/flash-icon.svg",
+            "icon" => "dist/images/propeller-icon.svg",
             "list" => [
                 "Rectificación de flechas",
                 "Orbitrol",
@@ -80,7 +80,7 @@
         ],
         [
             "title" => "Aire Acondicionado",
-            "icon" => "dist/images/flash-icon.svg",
+            "icon" => "dist/images/aa-icon.svg",
             "list" => [
                 "Mantenimiento de fábrica de hielo",
                 "Recargas de gas (417a /r22 /410 a/407 c/134 a)",
