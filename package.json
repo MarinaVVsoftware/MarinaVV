@@ -13,6 +13,7 @@
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
     "bootstrap": "^4.3.1",
+    "cocoen": "^2.0.5",
     "imagesloaded": "^4.1.4",
     "jquery": "^3.4.1",
     "masonry-layout": "^4.2.2",

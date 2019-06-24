@@ -3,6 +3,7 @@
     require "content/es/marinavv.php";
     require "content/es/marinaNovo.php";
     require "content/es/products.php";
+    require "content/es/shipyard.php";
     
     $navbar = [
         [

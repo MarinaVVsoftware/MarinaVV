@@ -237,6 +237,11 @@ h2
 .column-count-4
     column-count: 4 !important
 
+.column-count-4-responsive
+    column-count: 2
+    @include media-breakpoint-up(md)
+        column-count: 4
+
 .map-hero
     height: 70vh
     width: 100%
