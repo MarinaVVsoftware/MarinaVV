@@ -3,13 +3,13 @@
 
     $params = [
         'navbar' => $navbar,
-        "hero" => $hero,
-        "description" => $description,
-        "gallery" => $gallery,
-        "services" => $services,
-        "amenity" => $amenity,
-        "contact" => $contact,
-        "location" => $location,
+        "hero" => $marinavvHero,
+        "description" => $marinavvDescription,
+        "gallery" => $marinavvGallery,
+        "services" => $marinavvServices,
+        "amenity" => $marinavvAmenity,
+        "contact" => $marinavvContact,
+        "location" => $marinavvLocation,
         'footer' => $footer
     ];
     $template = $twig->load('marinas.twig');

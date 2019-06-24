@@ -1,14 +1,14 @@
 <?php
-    $hero = [
+    $marinavvHero = [
         "title" => "MARINA V&V",
         "src" => "dist/images/marinavv-hero.jpg",
         "srcMob" => "dist/images/marinavv-hero-mob.jpg",
         "alt" => ""
     ];
     
-    $description = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
+    $marinavvDescription = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
 
-    $gallery = [
+    $marinavvGallery = [
         [
             "class" => "",
             "img" => "dist/images/marinavv-gallery-1.jpg",
@@ -77,7 +77,7 @@
         ]
     ];
 
-    $services = [
+    $marinavvServices = [
         "title" => "SERVICIOS",
         "description" => "Nuestro personal espera para satisfacer completamente las necesidades de nuestros clientes ofreciendo un excelente servicio a los precios más competitivos.",
         "items" => [
@@ -106,12 +106,6 @@
                 "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
             ],
             [
-                "img" => "dist/images/gas-icon.svg",
-                "alt" => "",
-                "title" => "Suministro de Combustible",
-                "description" => "Somos la única marina con estación de combustible que cuenta con una certificación de 0% de agua."
-            ],
-            [
                 "img" => "dist/images/pipe-icon.svg",
                 "alt" => "",
                 "title" => "Desazolve",
@@ -121,21 +115,27 @@
                 "img" => "dist/images/warehouse-icon.svg",
                 "alt" => "",
                 "title" => "Almacenamiento",
-                "description" => "Contamos con bodegas exclusivas para resguardo de artículos de su embarcación."
+                "description" => "Bodegas exclusivas para resguardo de artículos de su embarcación."
             ],
             [
                 "img" => "dist/images/van-icon.svg",
                 "alt" => "",
                 "title" => "Transportación",
                 "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
+            ],
+            [
+                "img" => "dist/images/gas-icon.svg",
+                "alt" => "",
+                "title" => "Suministro de Combustible",
+                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua."
             ]
         ]
     ];
 
-    $amenity = [
-        "title" => "V&V Store",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa  accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a  condimentum risus. Vestibulum facilisis libero eu dapibus blandit. Pellentesque tempus urna quam, eu lacinia tellus blandit eu. Integer ultricies tellus vitae varius cursus.",
-        "listFeatures" => [ "Servicio", "Servicio", "Servicio" ],
+    $marinavvAmenity = [
+        "title" => "V&V STORE",
+        "description" => "Nuestra tienda V&V Store, cuenta con una amplia diversidad de productos como botanas, café, cervezas, vinos, agua, refresco, hielo, entre muchas otras. Contamos con servicio de entrega de los productos a tu embarcación para tu comodidad, además, de una sala de entretenimiento para los capitanes donde pueden tener descanso y recreación.",
+        "listFeatures" => [ "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados", "Billar", "Videojuegos", "Sala de recreación" ],
         "gallery" => [
             [
                 "img" => "dist/images/store-1.jpg",
@@ -153,19 +153,21 @@
 
     ];
 
-    $contact = [
-        "title" => "CONTÁCTANOS",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus.",
+    $marinavvContact = [
+        "title" => "COTIZAR ESTADÍA",
+        "description" => "Contáctanos ahora para reservar en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
+        "img" => "dist/images/banner-marina.jpg",
+        "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
             "link" => "#"
         ]
     ];
 
-    $location = [
+    $marinavvLocation = [
         "title" => "UBICACIÓN",
-        "description" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit. Pellentesque tempus urna quam, eu lacinia tellus blandit eu. Integer ultricies tellus vitae varius cursus.",
-        "img" => "",
-        "alt" => ""
+        "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
+        "lat" => "21.2379962",
+        "lng" => "-86.8032239"
     ];
 ?>

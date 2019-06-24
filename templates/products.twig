@@ -15,7 +15,7 @@
             <p>{{ description }}</p>
         </section>
 
-        <section class="container-fluid pt-5 mt-md-5" id="gallery">
+        <section class="container-fluid py-5 my-md-5" id="gallery">
             <div class="grid">
                 {% for item in gallery %}
                     <div class="grid-item {{ item.class }}">
@@ -27,27 +27,7 @@
             </div>
         </section>
 
-        <section class="pt-5 mt-md-5" id="services">
-            <div class="container text-center mb-5 pb-1">
-                <h1>{{ services.title }}</h1>
-                <p>{{ services.description }}</p>
-            </div>
-            <div class="container-fluid text-center">
-                <div class="row">
-                    {% for item in services.items %}
-                        <div class="col-6 col-md-4 col-lg-3 mb-5">
-                            <img class="img-fluid" src="{{ item.img }}" style="max-height:50px; height:100%;">
-                            <div>
-                                <h4 class="mb-0 mt-2">{{ item.title }}</h4>
-                                <p class="m-0">{{ item.description }}</p>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-
-        <section class="container-fluid pb-5 my-md-5" id="store">
+        <section class="container-fluid pb-5 pt-md-5 my-md-5" id="store">
             <div class="row mb-md-5">
                 <div class="col-12 col-md-6 swiper-container order-2">
                     <div class="swiper-wrapper">
@@ -75,14 +55,15 @@
 
         {{ ContactBanner.contactBanner(contact.title, contact.description, contact.btn.text, contact.btn.link, contact.img, contact.alt) }}
 
-        <section class="container-fluid pt-5 mt-md-5 mb-5 px-0" id="store">
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 order-2">
-                    <div class="map-section" id="map" data-lat="{{ location.lat }}" data-lng="{{ location.lng }}"></div>
-                </div>
-                <div class="col-12 col-md-6 pt-2 px-3 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
-                    <h1>{{ location.title }}</h1>
-                    <p class="pr-auto pr-md-5">{{ location.description }}</p>
+        <section class="container-fluid text-center" id="brands">
+            <h1 class="text-center pb-3 mb-lg-5">JRF MARINE &amp; TRADING</h1>
+            <div class="row">
+                <div class="col-3 col-lg">
+                    <img alt="" src="">
+                    <img alt="" src="">
+                    <img alt="" src="">
+                    <img alt="" src="">
+                    <img alt="" src="">
                 </div>
             </div>
         </section>
