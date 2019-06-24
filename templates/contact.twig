@@ -44,37 +44,38 @@
         </section>
 
         <section class="container pb-5">
-            <form action="">
+            <form action="" id="contactForm">
                 <div class="row">
                     <div class="col-12 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="name">{{labels.nombre}}</label>
+                        <input name="name" class="form-control" id="name" placeholder={{placeholder.nombre}} type="text" required>
                     </div>
                     <div class="col-6 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="boat">{{labels.nomEmb}}</label>
+                        <input name="boat" class="form-control" id="boat" placeholder={{placeholder.nomEmb}} type="text" required>
                     </div>
                     <div class="col-6 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="email">{{labels.email}}</label>
+                        <input name="email" class="form-control" id="email" placeholder={{placeholder.email}} type="email">
                     </div>
                 </div>
                 <div class="row mb-4">
                     <div class="col-12 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="slora">{{labels.slora}}</label>
+                        <input name="slora" class="form-control" id="slora" placeholder={{placeholder.slora}} type="number" required>
                     </div>
                     <div class="col-6 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="phone">{{labels.telefono}}</label>
+                        <input name="phone" class="form-control" id="phone" placeholder={{placeholder.telefono}} type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </div>
                     <div class="col-6 col-md form-group">
-                        <label for="formGroupExampleInput">Example label</label>
-                        <input class="form-control" id="formGroupExampleInput" placeholder="Name" type="text">
+                        <label for="req">{{labels.requerimentos}}</label>
+                        <textarea name="req" class="form-control" id="req" placeholder={{placeholder.requerimentos}} type="multi-line"></textarea>
                     </div>
                 </div>
-                <a class="btn-lg px-5 py-3 btn-blue" href="{{ contactInfo.btn.link }}">Enviar</a>
+                <button class="btn-lg px-5 py-2 btn-blue" type="submit">Enviar</button>
             </form>
         </section>
+
     </main>
 {% endblock %}
