@@ -6,6 +6,8 @@ import "../images/police-icon.svg";
 import "../images/flash-icon.svg";
 import "../images/pipe-icon.svg";
 import "../images/warehouse-icon.svg";
+import "../images/propeller-icon.svg";
+import "../images/aa-icon.svg";
 import "../images/bell-icon.svg";
 import "../images/facebook-logo.png";
 import "../images/twitter-logo.png";
