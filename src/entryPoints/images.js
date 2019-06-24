@@ -100,3 +100,9 @@ import "../images/hotelzone-1.jpg";
 import "../images/novo-banner.jpg";
 import "../images/products-hero.jpg";
 import "../images/products-hero-mob.jpg";
+
+import "../images/seahawk-logo.png";
+import "../images/flitz-logo.png";
+import "../images/tecnomar-logo.png";
+import "../images/propspeed-logo.png";
+import "../images/biotech-logo.png";

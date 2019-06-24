@@ -9,6 +9,6 @@
         "amenity" => $productsAmenity,
         'footer' => $footer
     ];
-    $template = $twig->load('marinas.twig');
+    $template = $twig->load('products.twig');
     echo $template->render($params);
 ?>
