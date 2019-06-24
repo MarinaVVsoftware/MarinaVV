@@ -113,3 +113,5 @@ import "../images/shipyard-hero.jpg";
 
 import "../images/shipyard/electricity-after.jpg";
 import "../images/shipyard/electricity-before.jpg";
+import "../images/shipyard/propulsion-after.jpg";
+import "../images/shipyard/propulsion-before.jpg";
