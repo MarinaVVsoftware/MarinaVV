@@ -21,7 +21,7 @@
         ],
         [
             "name" => "ASTILLERO",
-            "link" => "astillero.php"
+            "link" => "shipyard.php"
         ], 
         [   
             "name" => "PRODUCTOS",
@@ -47,7 +47,7 @@
             ],
             [
                 "text" => "Astillero",
-                "link" => "astillero.php"
+                "link" => "shipyard.php"
             ],
             [
                 "text" => "Productos",
