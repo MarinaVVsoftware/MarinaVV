@@ -84,7 +84,7 @@
         "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "#"
+            "link" => "contact.php"
         ]
     ];
 
