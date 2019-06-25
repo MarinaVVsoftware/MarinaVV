@@ -115,6 +115,7 @@ import "../images/biotech-logo.png";
 
 import "../images/shipyard-hero-mob.jpg";
 import "../images/shipyard-hero.jpg";
+import "../images/shipyard-banner.jpg";
 
 import "../images/contact.jpg";
 

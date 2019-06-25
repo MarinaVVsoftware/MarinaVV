@@ -180,7 +180,7 @@
     $shipyardContact = [
         "title" => "COTIZAR SERVICIOS",
         "description" => "Contáctanos ahora para mayor información en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
-        "img" => "dist/images/banner-marina.jpg",
+        "img" => "dist/images/shipyard-banner.jpg",
         "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
