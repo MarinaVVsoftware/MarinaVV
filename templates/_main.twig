@@ -43,18 +43,18 @@
                                         </a>
                                         <div aria-labelledby="navbarDropdown" class="dropdown-menu">
                                             {% for subitem in item.dropdown %}
-                                                <a class="dropdown-item px-3 py-2" href="#">{{ subitem.name }}</a>
+                                                <a class="dropdown-item px-3 py-2" href={{subitem.link}}>{{ subitem.name }}</a>
                                             {% endfor %}
                                         </div>
                                     </li>
                                 {% else %}
                                     <li class="nav-item px-3 py-2">
-                                        <a class="nav-link" href="#">{{ item.name }}</a>
+                                        <a class="nav-link" href={{item.link}}>{{ item.name }}</a>
                                     </li>
                                 {% endif %}
                             {% endfor %}
                             <li class="nav-item px-3 py-2">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href={{item.link}}>
                                     <span>ENG</span>
                                 </a>
                             </li>
