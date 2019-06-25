@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  font-display: swap;
+  src: url("/dist/fonts/raleway-regular.eot");
+  src: url("/dist/fonts/raleway-regular.woff2") format("woff2");
+  src: url("/dist/fonts/raleway-regular.woff") format("woff");
+  src: url("/dist/fonts/raleway-regular.ttf") format("truetype");
+  font-style: normal;
+  font-variant: normal;
+}

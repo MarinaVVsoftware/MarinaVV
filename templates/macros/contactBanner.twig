@@ -1,0 +1,15 @@
+{% macro contactBanner(title, description, buttonText, buttonLink, img, alt) %}
+    <section class="container-fluid background-blue floating-section px-0 my-md-5 pt-3 my-5" data-aos="fade-down" id="contactBanner">
+        <div class="row no-gutters">
+            <div class="col-12 col-lg-6 text-center text-lg-left px-3 px-md-5 pt-md-4 pb-4">
+                <h1 class="text-white">{{ title }}</h1>
+                <p class="text-white pb-3">{{ description }}</p>
+                <a class="btn-lg px-5 py-3 btn-white" href="{{ buttonLink }}">{{ buttonText }}</a>
+            </div>
+            <div class="col-12 col-lg-6 mt-4 mt-md-0">
+                <img alt="{{ alt }}" class="img-fluid w-100" src="{{ img }}">
+            </div>
+        </div>
+    </section>
+{% endmacro %}
+<!-- Imagen de 900x300 -->

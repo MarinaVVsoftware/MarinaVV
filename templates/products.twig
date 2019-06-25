@@ -1,0 +1,80 @@
+{% extends "_main.twig" %}
+{% import "./macros/contactBanner.twig" as ContactBanner %}
+{% block body %}
+    <header class="hero">
+        <picture>
+            <source media="(max-width: 768px)" srcset="{{ hero.srcMob }}">
+            <source media="(min-width: 769px)" srcset="{{ hero.src }}">
+            <img src="{{ hero.src }}">
+        </picture>
+        <div class="overlay"></div>
+        <h2 class="title text-center mb-5">{{ hero.title }}</h2>
+    </header>
+    <main>
+        <section class="container pt-5 mt-md-5 text-center" id="description">
+            <p data-aos="fade-down">{{ description }}</p>
+        </section>
+
+        <section class="container-fluid py-5 my-md-5" id="gallery">
+            <div class="grid">
+                {% for item in gallery %}
+                    <div class="grid-item {{ item.class }}">
+                        <a data-fancybox="gallery" href="{{ item.img }}">
+                            <img class="w-100 h-100 img-fluid" src="{{ item.imgThumbnail }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="container-fluid pb-5 pt-md-5 my-md-5" id="store">
+            <div class="row mb-md-5">
+                <div class="col-12 col-md-6 swiper-container order-2">
+                    <div class="swiper-wrapper">
+                        {% for item in amenity.gallery %}
+                            <div class="swiper-slide">
+                                <img alt="" class="w-100 img-fluid" src="{{ item.img }}">
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="col-12 col-md-6 pt-2 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
+                    <h1 data-aos="fade-up">{{ amenity.title }}</h1>
+                    <p class="pr-auto pr-md-5" data-aos="fade-up">{{ amenity.description }}</p>
+                    <div class="d-inline-block text-left" data-aos="fade-up">
+                        <ul class="column-count-2 check-list">
+                            {% for item in amenity.listFeatures %}
+                                <li>{{ item }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid text-center pb-5" data-aos="fade-up" id="brands">
+            <h1 class="text-center pb-3 mb-lg-5">{{ amenity.title }}</h1>
+            <div class="row justify-content-center">
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/propspeed-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/flitz-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/biotech-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/tecnomar-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/seahawk-logo.png">
+                </div>
+            </div>
+        </section>
+
+        {{ ContactBanner.contactBanner(contact.title, contact.description, contact.btn.text, contact.btn.link, contact.img, contact.alt) }}
+
+    </main>
+{% endblock %}

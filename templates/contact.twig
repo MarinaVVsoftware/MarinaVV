@@ -1,0 +1,81 @@
+{% extends "_main.twig" %}
+{% block body %}
+    <header class="hero">
+        <div class="map-hero" id="map" data-lat="{{ location.lat }}" data-lng="{{ location.lng }}"></div>
+    </header>
+
+    <main>
+        <section class="container-fluid py-5 my-md-5 px-0" id="contact">
+            <h1 class="text-center pb-5">CONTACTO</h1>
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-6" data-aos="fade-right">
+                    <img class="w-100 img-fluid" src="dist/images/contact.jpg">
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-up">
+                    <div class="row no-gutters text-center text-lg-left">
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>{{contactsVS.title}}</h4>
+                            <p class="mb-0">{{contactsVS.telefono}}</p>
+                            <p class="mb-0">{{contactsVS.email}}</p>
+                            <p class="mb-0">{{contactsVS.secondemail}}</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>{{contactVE.title}}</h4>
+                            <p class="mb-0">{{contactVE.telefono}}</p>
+                            <p class="mb-0">{{contactVE.email}}</p>
+                            <p class="mb-0">{{contactVE.secondemail}}</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>{{contactAC.title}}</h4>
+                            <p class="mb-0">{{contactAC.telefono}}</p>
+                            <p class="mb-0">{{contactAC.email}}</p>
+                            <p class="mb-0">{{contactAC.secondemail}}</p>
+                        </div>
+                        <div class="col-6 px-3 pl-lg-5 pt-5">
+                            <h4>{{direc.title}}</h4>
+                            <p class="mb-0">{{direc.Estado}}{{direc.municipio}}</p>
+                            <p class="mb-0">{{direc.calle}}</p>
+                            <p class="mb-0">{{direc.zona}}</p>
+                            <p class="mb-0">{{direc.local}}{{direc.CP}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pb-5">
+            <form action="" id="contactForm">
+                <div class="row">
+                    <div class="col-12 col-md form-group">
+                        <label for="name">{{labels.nombre}}</label>
+                        <input name="name" class="form-control" id="name" placeholder={{placeholder.nombre}} type="text" required>
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="boat">{{labels.nomEmb}}</label>
+                        <input name="boat" class="form-control" id="boat" placeholder={{placeholder.nomEmb}} type="text" required>
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="email">{{labels.email}}</label>
+                        <input name="email" class="form-control" id="email" placeholder={{placeholder.email}} type="email">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-12 col-md form-group">
+                        <label for="slora">{{labels.slora}}</label>
+                        <input name="slora" class="form-control" id="slora" placeholder={{placeholder.slora}} type="number" required>
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="phone">{{labels.telefono}}</label>
+                        <input name="phone" class="form-control" id="phone" placeholder={{placeholder.telefono}} type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                    </div>
+                    <div class="col-6 col-md form-group">
+                        <label for="req">{{labels.requerimentos}}</label>
+                        <textarea name="req" class="form-control" id="req" placeholder={{placeholder.requerimentos}} type="multi-line"></textarea>
+                    </div>
+                </div>
+                <button class="btn-lg px-5 py-2 btn-blue" data-aos="fade-up" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+{% endblock %}
