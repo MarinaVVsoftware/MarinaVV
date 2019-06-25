@@ -10,25 +10,25 @@
             "dropdown" => [
                 [
                     "name" => "NOVO CANCÚN",
-                    "link" => "#"
+                    "link" => "marinanovo.php"
                 ],
                 [
                     "name" => "V&V",
-                    "link" => "#"
+                    "link" => "marinavv.php"
                 ]
             ]
         ],
         [
             "name" => "ASTILLERO",
-            "link" => "#"
+            "link" => "astillero.php"
         ], 
         [   
             "name" => "PRODUCTOS",
-            "link" => "#"
+            "link" => "products.php"
         ],
         [
             "name" => "CONTACTO",
-            "link" => "#"
+            "link" => "contact.php"
         ]
 
     ];
@@ -38,23 +38,23 @@
         "menu" => [
             [
                 "text" => "Marina V&V",
-                "link" => "#"
+                "link" => "marinavv.php"
             ],
             [
                 "text" => "Marina Novo",
-                "link" => "#"
+                "link" => "marinanovo.php"
             ],
             [
                 "text" => "Astillero",
-                "link" => "#"
+                "link" => "astillero.php"
             ],
             [
                 "text" => "Productos",
-                "link" => "#"
+                "link" => "products.php"
             ],
             [
                 "text" => "Contacto",
-                "link" => "#"
+                "link" => "contact.php"
             ]
         ]
     ]
