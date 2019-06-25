@@ -13,7 +13,7 @@ import "../images/paint-icon.svg";
 import "../images/engine-icon.svg";
 import "../images/bell-icon.svg";
 import "../images/facebook-logo.png";
-import "../images/twitter-logo.png";
+import "../images/instagram-logo.png";
 import "../images/youtube-logo.png";
 import "../images/marinavv-principal.jpg";
 import "../images/marinavv-section.jpg";

@@ -7,6 +7,7 @@
         "hero" => $shipyardHero,
         "description" => $shipyardDescription,
         "services" => $shipyardServices,
+        "contact"=>$shipyardContact,
         'footer' => $footer
     ];
     $template = $twig->load('shipyard.twig');

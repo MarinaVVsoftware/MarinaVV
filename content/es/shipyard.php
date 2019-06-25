@@ -178,13 +178,13 @@
     ];
 
     $shipyardContact = [
-        "title" => "COTIZAR ESTADÍA",
-        "description" => "Contáctanos ahora para reservar en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
+        "title" => "COTIZAR SERVICIOS",
+        "description" => "Contáctanos ahora para mayor información en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/banner-marina.jpg",
         "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "#"
+            "link" => "contact.php"
         ]
     ];
 ?>
