@@ -1,23 +1,41 @@
 <?php
-    $principalTitle = "DEJA QUE TUS SUEÑOS<br>TOQUEN FONDO";
+    // The best marina to stay in cancun
+    $principalTitle = "THE BEST MARINA TO STAY<br>IN CANCÚN";
     $aboutUs = [
-        "title" => "NOSOTROS",
-        "text" => "            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam justo justo, congue at diam et, malesuada ultricies risus. Phasellus sodales ultrices metus vel convallis. Nulla vel turpis sed neque dictum euismod ut nec arcu. Ut urna enim, commodo sit amet gravida sit amet, sagittis at nibh. Aliquam erat volutpat. Donec pharetra mi et pulvinar congue. In in sapien in purus congue pretium. Nullam id metus purus. Sed viverra augue vitae commodo accumsan. Etiam non arcu vel augue volutpat gravida. Mauris ac mauris nisl. Ut at pellentesque nibh, in ornare metus. Nam non nibh suscipit, aliquam sem non, tincidunt quam."
+        "title" => "ABOUT US",
+        "text" => "Located in the Caribbean Sea. Marina V&V offers world-class products, services and facilities, allowing us to reach beyond expectation. The passion of our customers for the sea and its yachts motivates us to always count on quality, innovation and unsurpassed attention."
     ];
     $nationalQuality = [
-        "title" => "CALIDAD NACIONAL",
-        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit."
+        "title" => "LA MEJOR CALIDAD",
+        "text" => "
+        598/5000
+        We offer world-class services such as the shipyard that has an area of more than 6 thousand square meters, with capacity to receive vessels of up to 100 tons.
+        Located in front of the second longest barrier reef in the world, Marina V & V has an extension of 1.5 kilometers and has the capacity to receive 176 vessels of up to 240 feet.
+        The Marina Novo Cancun, located in one of the most prestigious resorts in the state, offers luxury services with staff available 24 hours a day and spaces for boats up to 100 feet.",
+        "text2" => "Everything you need for your yacht you can find with us. We have brands of products such as Biotech, Sea Hawk, Propspeed, as many others."
     ];
 
     $explorevv = [
-        "title" => "EXPLORA V&V",
+        "title" => "EXPLORE V&V",
         "items" => [
             [
                 // True for right text, false for left text
                 "direction" => true,
+                "title" => "NOVO CANCÚN",
+                "text" => "Novo Cancun Marina Boutique, located in one of the most prestigious resorts in the state, offers luxury services with staff available 24 hours a day and spaces for boats up to 100 feet.",
+                "img" => "dist/images/marinanovo-section.jpg",
+                "alt" => "",
+                "btn" => [
+                    "text" => "More info",
+                    "link" => "#"
+                ]
+            ],
+            [
+                // True for right text, false for left text
+                "direction" => false,
                 "title" => "MARINA V&V",
-                "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit.",
-                "img" => "https://via.placeholder.com/900x350",
+                "text" => "Located in front of the second longest barrier reef in the world, Marina V & V has an extension of 1.5 kilometers and has the capacity to receive 176 boats of up to 240 feet.",
+                "img" => "dist/images/marinavv-section.jpg",
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
@@ -26,13 +44,25 @@
             ],
             [
                 // True for right text, false for left text
-                "direction" => false,
-                "title" => "MARINA V&V",
-                "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed. Morbi eu ligula sollicitudin, laoreet odio a, varius mi. Mauris rhoncus mauris vel accumsan pulvinar. Donec faucibus dapibus nisi, a condimentum risus. Vestibulum facilisis libero eu dapibus blandit.",
-                "img" => "https://via.placeholder.com/900x350",
+                "direction" => true,
+                "title" => "SHIPYARD",
+                "text" => "Our shipyard has an extension of more than 6 thousand square meters, with capacity to receive vessels of up to 100 tons. We offer more than 100 services, ranging from aesthetics to propulsion.",
+                "img" => "dist/images/astillero-section.jpg",
                 "alt" => "",
                 "btn" => [
-                    "text" => "Más Información",
+                    "text" => "More info",
+                    "link" => "#"
+                ]
+            ],
+            [
+                // True for right text, false for left text
+                "direction" => false,
+                "title" => "PRODUCTS JRF",
+                "text" => "At JRF Marine we have unique and exclusive contracts with the best brands of maritime products, in addition to having the widest online assortment in the country.",
+                "img" => "dist/images/yatch-section.jpg",
+                "alt" => "",
+                "btn" => [
+                    "text" => "More info",
                     "link" => "#"
                 ]
             ]
@@ -40,10 +70,10 @@
     ];
     
     $contactInfo = [
-        "title" => "CONOCENOS A PROFUNDIDAD",
-        "text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus ex ut laoreet consequat. In venenatis justo tellus, vel lobortis massa accumsan sed.",
+        "title" => "KNOW US BETTER",
+        "text" => "Your passion is our main dedication. Contact us and learn more about the promotions and advantages we have for you.",
         "btn" => [
-            "text" => "Contáctanos",
+            "text" => "Contact us",
             "link" => "#"
         ]
     ];
