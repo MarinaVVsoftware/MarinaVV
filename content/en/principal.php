@@ -27,7 +27,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "More info",
-                    "link" => "#"
+                    "link" => "marinanovo"
                 ]
             ],
             [
@@ -39,7 +39,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "#"
+                    "link" => "marinavv"
                 ]
             ],
             [
@@ -51,7 +51,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "More info",
-                    "link" => "#"
+                    "link" => "shipyard"
                 ]
             ],
             [
@@ -63,7 +63,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "More info",
-                    "link" => "#"
+                    "link" => "products"
                 ]
             ]
         ]
@@ -74,7 +74,7 @@
         "text" => "Your passion is our main dedication. Contact us and learn more about the promotions and advantages we have for you.",
         "btn" => [
             "text" => "Contact us",
-            "link" => "#"
+            "link" => "contact"
         ]
     ];
 

@@ -161,8 +161,8 @@
         "img" => "dist/images/banner-marina.jpg",
         "alt" => "",
         "btn" => [
-            "text" => "Contáctanos",
-            "link" => "#"
+            "text" => "Contact us",
+            "link" => "contact"
         ]
     ];
 

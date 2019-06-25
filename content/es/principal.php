@@ -25,7 +25,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "marinanovo.php"
+                    "link" => "marinanovo"
                 ]
             ],
             [
@@ -37,7 +37,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "marinavv.php"
+                    "link" => "marinavv"
                 ]
             ],
             [
@@ -49,7 +49,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "shipyard.php"
+                    "link" => "shipyard"
                 ]
             ],
             [
@@ -61,7 +61,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "products.php"
+                    "link" => "products"
                 ]
             ]
         ]
@@ -72,7 +72,7 @@
         "text" => "Tu pasión es nuestro principal comprimiso. Contáctanos y conoce más acerca de las promociones y ventajas que tenemos para ti. ",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "contact.php"
+            "link" => "contact"
         ]
     ];
 

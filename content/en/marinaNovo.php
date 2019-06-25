@@ -159,7 +159,7 @@
         "alt" => "",
         "btn" => [
             "text" => "Contact us",
-            "link" => "#"
+            "link" => "contact"
         ]
     ];
 

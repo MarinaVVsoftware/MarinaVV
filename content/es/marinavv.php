@@ -160,7 +160,7 @@
         "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "contact.php"
+            "link" => "contact"
         ]
     ];
 

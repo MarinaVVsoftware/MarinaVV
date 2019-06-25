@@ -10,7 +10,7 @@ window.addEventListener("scroll", e => {
 });
 
 function scrollNavbar(y) {
-  if (y > 450) {
+  if (y > 150) {
     navbar.classList.remove("navbar-initial");
     navbar.classList.add("navbar-scroll");
   } else {

@@ -2,7 +2,7 @@
     $productsHero = [
         "title" => "JRF PRODUCTOS",
         "src" => "dist/images/products-hero.jpg",
-        "srcMob" => "dist/images/products|-hero-mob.jpg",
+        "srcMob" => "dist/images/products-hero-mob.jpg",
         "alt" => ""
     ];
     
@@ -84,7 +84,7 @@
         "alt" => "",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "contact.php"
+            "link" => "contact"
         ]
     ];
 
