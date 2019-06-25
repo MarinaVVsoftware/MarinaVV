@@ -5,5 +5,6 @@ import "../scripts/navbarScroll";
 import "../scripts/masonry";
 import "../scripts/map";
 import "../scripts/swiper";
+import "../scripts/cocoen";
 import "../scripts/jqueryInit";
 import "../scripts/contactForm";

@@ -6,6 +6,7 @@
         "hero" => $productsHero,
         "description" => $productsDescription,
         "gallery" => $productsGallery,
+        "contact" => $productsNovoContact,
         "amenity" => $productsAmenity,
         'footer' => $footer
     ];

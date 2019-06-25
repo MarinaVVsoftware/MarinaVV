@@ -19,7 +19,7 @@ if(!empty($_POST['name']) && !empty($_POST['phone'])){
     Boat Name: $boat \n
     Slora: $slora \n
     Requirements: $requirements \n";
-//mail($emailto,$mailHeader,$message,$mailHeader) or die("error");
+mail($emailto,$mailHeader,$message,$mailHeader) or die("error");
 echo(1);
  
     

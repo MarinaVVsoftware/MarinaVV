@@ -77,6 +77,17 @@
         ]
     ];
 
+    $productsNovoContact = [
+        "title" => "COTIZAR ESTADÍA",
+        "description" => "Contáctanos ahora para adquirir productos con nosotros, nuestros asesores le ofrecerán atención personalizada.",
+        "img" => "dist/images/products-banner.jpg",
+        "alt" => "",
+        "btn" => [
+            "text" => "Contáctanos",
+            "link" => "#"
+        ]
+    ];
+
     $productsAmenity = [
         "title" => "JRF MARINE & TRADING",
         "description" => "JRF Marine es nuestra división especializada en venta de productos a mayoreo. Nuestra plataforma integra nuestra red de distribuidores con los principales proveedores del ramo en un sistema de logística moderno. La mejor solución del país en productos marítimos. Contamos con las siguientes marcas como:",

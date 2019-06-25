@@ -53,19 +53,28 @@
             </div>
         </section>
 
-        {{ ContactBanner.contactBanner(contact.title, contact.description, contact.btn.text, contact.btn.link, contact.img, contact.alt) }}
-
-        <section class="container-fluid text-center" id="brands">
-            <h1 class="text-center pb-3 mb-lg-5">JRF MARINE &amp; TRADING</h1>
-            <div class="row">
-                <div class="col-3 col-lg">
-                    <img alt="" src="">
-                    <img alt="" src="">
-                    <img alt="" src="">
-                    <img alt="" src="">
-                    <img alt="" src="">
+        <section class="container-fluid text-center pb-5" id="brands">
+            <h1 class="text-center pb-3 mb-lg-5">{{ amenity.title }}</h1>
+            <div class="row justify-content-center">
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/propspeed-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/flitz-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/biotech-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/tecnomar-logo.png">
+                </div>
+                <div class="col-3 col-md mx-md-5 my-3 d-flex align-items-center">
+                    <img alt="" class="img-fluid" src="dist/images/seahawk-logo.png">
                 </div>
             </div>
         </section>
+
+        {{ ContactBanner.contactBanner(contact.title, contact.description, contact.btn.text, contact.btn.link, contact.img, contact.alt) }}
+
     </main>
 {% endblock %}
