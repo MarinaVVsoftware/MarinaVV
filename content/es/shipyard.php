@@ -11,7 +11,8 @@
     $shipyardServices = [
         [
             "title" => "Electrónica y Electricidad",
-            "icon" => "dist/images/flash-icon.svg",
+            "icon" => "dist/images/flash2-icon.svg",
+            "width" => "width-2",
             "list" => [
                 "Electrónica de navegación",
                 "Piloto automático",
@@ -118,7 +119,7 @@
         ],
         [
             "title" => "Pintura y Fibra de Vidrio",
-            "icon" => "dist/images/flash-icon.svg",
+            "icon" => "dist/images/paint-icon.svg",
             "list" => [
                 "Pintura de fondo en general",
                 "Pulido y encerado",
@@ -143,12 +144,11 @@
         ],
         [
             "title" => "Servicio Especializado a Motores",
-            "icon" => "dist/images/flash-icon.svg",
+            "icon" => "dist/images/engine-icon.svg",
             "list" => [
                 "Reparación de timón",
                 "Mangueras",
                 "Rampas",
-                "Sistema rotatorio hidráulico",
                 "Mantenimiento de Bujes",
                 "Bombas hidráulicas",
                 "Mangueras",
@@ -160,6 +160,7 @@
                 "Orbitol",
                 "Plumas",
                 "Banco de válvulas",
+                "Sistema rotatorio hidráulico",
             ],
             "imgCompare" => [
                 [
