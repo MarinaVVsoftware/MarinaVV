@@ -166,22 +166,25 @@ var styles = [
 (() => {
   try {
     var $map = document.getElementById("map");
-    const lat = Number($map.dataset.lat);
-    const lng = Number($map.dataset.lng);
-    var centerMap = { lat, lng };
 
-    var map = new google.maps.Map($map, {
-      zoom: 16,
-      center: centerMap,
-      disableDefaultUI: true,
-      styles
-    });
+    if ($map) {
+      const lat = Number($map.dataset.lat);
+      const lng = Number($map.dataset.lng);
+      var centerMap = { lat, lng };
 
-    new google.maps.Marker({
-      position: new google.maps.LatLng(centerMap),
-      map,
-      icon: "dist/images/marker.png"
-    });
+      var map = new google.maps.Map($map, {
+        zoom: 16,
+        center: centerMap,
+        disableDefaultUI: true,
+        styles
+      });
+
+      new google.maps.Marker({
+        position: new google.maps.LatLng(centerMap),
+        map,
+        icon: "dist/images/marker.png"
+      });
+    }
   } catch (er) {
     console.log(er);
   }

@@ -9,7 +9,7 @@
         "title" => "LA MEJOR CALIDAD",
         "text" => "Ofrecemos servicios de clase mundial tales como el astillero que cuenta con una extensión de mas de 6 mil metros cuadrados, con capacidad de recibir embarcaciones de hasta 100 toneladas.
         Ubicada frente a la segunda barrera de coral más larga del mundo la Marina V&V posee una extensión de 1.5 kilometros y cuenta con capacidad para recibir 176 embarcaciones de hasta 240 pies.
-        La Marina Novo Cancún, ubicada en uno de los complejos de mayor prestigio del estado, ofrece servicios de lujo con personal disponible las 24 horas del dia y espacios para embarcaciones de hasta 100 pies.",
+        La Marina Novo Cancún, ubicada en uno de los complejos de mayor prestigio del estado, ofrece servicios de lujo con personal disponible las 24 horas del dia.",
         "text2" => "Todo lo que necesites para tu embarcación lo puedes encontrar con nosotros. Contamos con marcas de productos como Biotech, Sea Hawk, Propspeed, entre muchos más."
     ];
 

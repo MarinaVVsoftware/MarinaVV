@@ -12,7 +12,7 @@
     </header>
     <main>
         <section class="container pt-5 mt-md-5 text-center" id="description">
-            <p>{{ description }}</p>
+            <p data-aos="fade-up">{{ description }}</p>
         </section>
 
         <section class="container-fluid pt-5 mt-md-5" id="gallery">
@@ -35,7 +35,7 @@
             <div class="container-fluid text-center">
                 <div class="row">
                     {% for item in services.items %}
-                        <div class="col-6 col-md-4 col-lg-3 mb-5">
+                        <div class="col-6 col-md-4 col-lg-3 mb-5" data-aos-duration="{{ loop.index }}00" data-aos="fade-up-right">
                             <img class="img-fluid" src="{{ item.img }}" style="max-height:50px; height:100%;">
                             <div>
                                 <h4 class="mb-0 mt-2">{{ item.title }}</h4>
@@ -60,9 +60,9 @@
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="col-12 col-md-6 pt-2 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
-                    <h1>{{ amenity.title }}</h1>
-                    <p class="pr-auto pr-md-5">{{ amenity.description }}</p>
-                    <div class="d-inline-block text-left">
+                    <h1 data-aos="fade-up">{{ amenity.title }}</h1>
+                    <p class="pr-auto pr-md-5" data-aos="fade-up">{{ amenity.description }}</p>
+                    <div class="d-inline-block text-left" data-aos="fade-up">
                         <ul class="column-count-2 check-list">
                             {% for item in amenity.listFeatures %}
                                 <li>{{ item }}</li>
@@ -75,7 +75,7 @@
 
         {{ ContactBanner.contactBanner(contact.title, contact.description, contact.btn.text, contact.btn.link, contact.img, contact.alt) }}
 
-        <section class="container-fluid pt-5 mt-md-5 mb-5 px-0" id="store">
+        <section class="container-fluid pt-5 mt-md-5 mb-5 px-0" data-aos="fade-up" id="store">
             <div class="row no-gutters">
                 <div class="col-12 col-md-6 order-2">
                     <div class="map-section" id="map" data-lat="{{ location.lat }}" data-lng="{{ location.lng }}"></div>

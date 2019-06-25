@@ -120,3 +120,7 @@ import "../images/shipyard/electricity-after.jpg";
 import "../images/shipyard/electricity-before.jpg";
 import "../images/shipyard/propulsion-after.jpg";
 import "../images/shipyard/propulsion-before.jpg";
+import "../images/shipyard/fibra-after.jpg";
+import "../images/shipyard/fibra-before.jpg";
+import "../images/shipyard/motor-after.jpg";
+import "../images/shipyard/motor-before.jpg";

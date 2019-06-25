@@ -12,7 +12,7 @@
     </header>
     <main>
         <section class="container pt-5 mt-md-5 text-center" id="description">
-            <p>{{ description }}</p>
+            <p data-aos="fade-down">{{ description }}</p>
         </section>
 
         <section class="container-fluid py-5 my-md-5" id="gallery">
@@ -40,9 +40,9 @@
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="col-12 col-md-6 pt-2 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
-                    <h1>{{ amenity.title }}</h1>
-                    <p class="pr-auto pr-md-5">{{ amenity.description }}</p>
-                    <div class="d-inline-block text-left">
+                    <h1 data-aos="fade-up">{{ amenity.title }}</h1>
+                    <p class="pr-auto pr-md-5" data-aos="fade-up">{{ amenity.description }}</p>
+                    <div class="d-inline-block text-left" data-aos="fade-up">
                         <ul class="column-count-2 check-list">
                             {% for item in amenity.listFeatures %}
                                 <li>{{ item }}</li>
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="container-fluid text-center pb-5" id="brands">
+        <section class="container-fluid text-center pb-5" data-aos="fade-up" id="brands">
             <h1 class="text-center pb-3 mb-lg-5">{{ amenity.title }}</h1>
             <div class="row justify-content-center">
                 <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">

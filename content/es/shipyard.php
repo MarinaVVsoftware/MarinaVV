@@ -132,11 +132,11 @@
             ],
             "imgCompare" => [
                 [
-                    "imgBefore" => "dist/images/propulsion-before.jpg",
+                    "imgBefore" => "dist/images/fibra-before.jpg",
                     "altBefore" => ""
                 ],
                 [
-                    "imgAfter" => "dist/images/propulsion-after.jpg",
+                    "imgAfter" => "dist/images/fibra-after.jpg",
                     "altAfter" => ""
                 ]
             ],
@@ -164,11 +164,11 @@
             ],
             "imgCompare" => [
                 [
-                    "imgBefore" => "dist/images/propulsion-before.jpg",
+                    "imgBefore" => "dist/images/motor-before.jpg",
                     "altBefore" => ""
                 ],
                 [
-                    "imgAfter" => "dist/images/propulsion-after.jpg",
+                    "imgAfter" => "dist/images/motor-after.jpg",
                     "altAfter" => ""
                 ]
             ],

@@ -1,6 +1,6 @@
 <?php
     $productsHero = [
-        "title" => "JRF PRODUCTS",
+        "title" => "JRF PRODUCTOS",
         "src" => "dist/images/products-hero.jpg",
         "srcMob" => "dist/images/products|-hero-mob.jpg",
         "alt" => ""
