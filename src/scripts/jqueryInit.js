@@ -8,7 +8,10 @@ require("jquery-lazy");
  * Lazy init
  */
 $(function() {
-  $(".lazy").Lazy();
+  $(".lazy").Lazy({
+    effect: "fadeIn",
+    effectTime: 500
+  });
 });
 
 /**
