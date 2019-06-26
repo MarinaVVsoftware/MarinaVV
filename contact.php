@@ -1,9 +1,10 @@
 <?php
     require "init.php";
-    require "content/es/contact.php";
 
     $params = [
         'navbar' => $navbar,
+        'htmlLanguage' => $htmlLanguage,
+        'languageToChange' => $languageToChange,
         'placeholder' => $placeholder,
         'location' => $contactLocation,
         'contactsVS' =>$contactVS,

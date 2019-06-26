@@ -1,13 +1,18 @@
 import axios from "axios";
 
-const language = document.getElementById("lang");
-language.addEventListener("click", () => {
-  const getLang = JSON.parse(lang.dataset.lang);
+const lang = document.getElementById("lang");
+
+lang.addEventListener("click", () => {
   const params = {
-    lang: getLang
+    language: lang.dataset.language
   };
 
-  axios.post("setLanguage.php", params).then(response => {
-    location.reload();
-  });
+  axios
+    .post("setLanguage.php", params)
+    .then(response => {
+      location.reload();
+    })
+    .catch(error => {
+      console.log(error);
+    });
 });

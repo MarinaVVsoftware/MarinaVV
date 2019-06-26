@@ -4,6 +4,8 @@
     $params = [
         
         'navbar' => $navbar,
+        'htmlLanguage' => $htmlLanguage,
+        'languageToChange' => $languageToChange,
         "hero" => $shipyardHero,
         "description" => $shipyardDescription,
         "services" => $shipyardServices,

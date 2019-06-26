@@ -1,6 +1,6 @@
 <?php
     // The best marina to stay in cancun
-    $principalTitle = "LA MEJOR MARINA PARA ESTAR<br>ESTAR CANCÚN";
+    $principalTitle = "LA MEJOR MARINA PARA<br>ESTAR CANCÚN";
     $aboutUs = [
         "title" => "NOSOTROS",
         "text" => "Ubicada en el Mar Caribe. Marina V&V ofrece productos, servicios e instalaciones de clase mundial, permitiéndonos llegar más allá de la expectativa. La pasión de nuestros clientes por el mar y sus embarcaciones nos motiva a siempre contar con calidad, innovación y atención insuperable."

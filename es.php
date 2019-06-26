@@ -4,7 +4,12 @@
     require "content/es/marinaNovo.php";
     require "content/es/products.php";
     require "content/es/shipyard.php";
+    require "content/es/contact.php";
     
+    $htmlLanguage = 'es';
+
+    $languageToChange = 'en';
+
     $navbar = [
         [
             "name" => "MARINAS",
