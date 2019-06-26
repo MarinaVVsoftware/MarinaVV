@@ -5,7 +5,7 @@
         <picture>
             <source media="(max-width: 768px)" srcset="{{ hero.srcMob }}">
             <source media="(min-width: 769px)" srcset="{{ hero.src }}">
-            <img src="{{ hero.src }}">
+            <img class="lazy" data-src="{{ hero.src }}">
         </picture>
         <div class="overlay"></div>
         <h2 class="title text-center mb-5">{{ hero.title }}</h2>
@@ -36,7 +36,7 @@
                 <div class="row">
                     {% for item in services.items %}
                         <div class="col-6 col-md-4 col-lg-3 mb-5" data-aos-duration="{{ loop.index }}00" data-aos="fade-up-right">
-                            <img class="img-fluid" src="{{ item.img }}" style="max-height:50px; height:100%;">
+                            <img class="img-fluid lazy" data-src="{{ item.img }}" style="max-height:50px; height:100%;">
                             <div>
                                 <h4 class="mb-0 mt-2">{{ item.title }}</h4>
                                 <p class="m-0">{{ item.description }}</p>
@@ -53,7 +53,7 @@
                     <div class="swiper-wrapper">
                         {% for item in amenity.gallery %}
                             <div class="swiper-slide">
-                                <img alt="" class="w-100 img-fluid" src="{{ item.img }}">
+                                <img alt="" class="w-100 img-fluid lazy" data-src="{{ item.img }}">
                             </div>
                         {% endfor %}
                     </div>

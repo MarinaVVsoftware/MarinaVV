@@ -3,6 +3,8 @@
 
     $params = [
         'navbar' => $navbar,
+        'htmlLanguage' => $htmlLanguage,
+        'languageToChange' => $languageToChange,
         "hero" => $marinaNovoHero,
         "description" => $marinaNovoDescription,
         "gallery" => $marinaNovoGallery,

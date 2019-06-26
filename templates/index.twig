@@ -29,7 +29,7 @@
         <section class="container-fluid background-blue floating-section px-0 my-md-5" id="nationalQuality">
             <div class="row no-gutters">
                 <div class="col-12 col-xl-7" data-aos="fade-right">
-                    <img alt="" class="img-fluid w-100" src="dist/images/marinavv-principal.jpg">
+                    <img alt="" class="img-fluid w-100 lazy" src="dist/images/marinavv-principal.jpg">
                 </div>
                 <div class="col-12 col-xl-5 px-3 px-xl-5 py-5 py-md-2 pt-xl-5 text-center text-xl-left" data-aos="fade-up">
                     <h1 class="text-white">{{ nationalQuality.title }}</h1>
@@ -43,9 +43,9 @@
             <h1 class="text-center pb-3 mb-lg-5">{{ explorevv.title }}</h1>
             {% for item in explorevv.items %}
                 {% if item.direction %}
-                    <div class="row no-gutters mb-5 pb-lg-5" data-aos="fade-up">
+                    <div class="row no-gutters mb-5 pb-lg-5">
                         <div class="col-12 col-lg-6 order-2">
-                            <img alt="{{ item.alt }}" class="img-fluid w-100" src="{{ item.img }}">
+                            <img alt="{{ item.alt }}" class="img-fluid w-100 lazy" data-src="{{ item.img }}">
                         </div>
                         <div class="col-12 col-lg-6 px-3 pl-lg-5 pt-3 order-1 order-lg-2 mb-5">
                             <h2>{{ item.title }}</h2>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 {% else %}
-                    <div class="row no-gutters mb-5 pb-lg-5" data-aos="fade-up">
+                    <div class="row no-gutters mb-5 pb-lg-5">
                         <div class="col-12 col-lg-6 px-3 pr-lg-5 pt-3 mb-5">
                             <div class="pl-auto pl-lg-5 ml-lg-5">
                                 <h2>{{ item.title }}</h2>
@@ -65,14 +65,14 @@
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
-                            <img alt="{{ item.alt }}" class="img-fluid w-100" src="{{ item.img }}">
+                            <img alt="{{ item.alt }}" class="img-fluid w-100 lazy" data-src="{{ item.img }}">
                         </div>
                     </div>
                 {% endif %}
             {% endfor %}
         </section>
 
-        <section class="container text-center pb-5 my-md-5" data-aos="fade-right" id="contactUs">
+        <section class="container text-center pb-5 my-md-5" id="contactUs">
             <h1>{{ contactInfo.title }}</h1>
             <p class="mb-5">{{ contactInfo.text }}</p>
             <a class="btn-lg px-5 py-3 btn-blue" href="{{ contactInfo.btn.link }}">{{ contactInfo.btn.text }}</a>
