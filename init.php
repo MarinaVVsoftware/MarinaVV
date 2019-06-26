@@ -1,8 +1,8 @@
 <?php
-require_once 'vendor/autoload.php';
-require "esp.php";
+require_once __DIR__.'/vendor/autoload.php';
+require "es.php";
 
-$loader = new Twig_Loader_FileSystem('templates');
+$loader = new Twig_Loader_Filesystem(__DIR__.'/templates');
 $twig = new Twig_Environment($loader, [
     'degug' => true 
 ]);
