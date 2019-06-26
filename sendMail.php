@@ -4,7 +4,7 @@ $_POST = json_decode(file_get_contents("php://input"),true);
 
 
 if(!empty($_POST['name']) && !empty($_POST['phone'])){
-    $emailto = "fbuenfil@marinavv.com";
+    $emailto = "manases9403@gmail.com";
     $name = $_POST['name'];
     $boat = $_POST['boat'];
     $email = $_POST['email'];
