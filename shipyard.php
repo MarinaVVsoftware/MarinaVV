@@ -7,6 +7,7 @@
         'htmlLanguage' => $htmlLanguage,
         'languageToChange' => $languageToChange,
         "hero" => $shipyardHero,
+        "title" => $shipyardTitle,
         "description" => $shipyardDescription,
         "services" => $shipyardServices,
         "contact"=>$shipyardContact,
