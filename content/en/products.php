@@ -1,12 +1,12 @@
 <?php
     $productsHero = [
-        "title" => "JRF PRODUCTOS",
+        "title" => "JRF PRODUCTS",
         "src" => "dist/images/products-hero.jpg",
-        "srcMob" => "dist/images/products-hero-mob.jpg",
+        "srcMob" => "dist/images/products|-hero-mob.jpg",
         "alt" => ""
     ];
     
-    $productsDescription = "Contamos con una amplia variedad de productos para su barco, desde productos de mantenimiento, pinturas y reparación hasta piezas de motores, ánodos, y electrónica. Tenemos trato directo con los mejores proveedores del ramo y stocks inteligentes para siempre disponer de la mejor calidad para usted.";
+    $productsDescription = "We have a wide variety of products for your boat, from maintenance products, paints and repair to engine parts, anodes, and electronics. We have direct contact with the best suppliers in the industry and smart stocks to always have the best quality for you.";
 
     $productsGallery = [
         [
@@ -78,19 +78,21 @@
     ];
 
     $productsNovoContact = [
-        "title" => "COTIZAR ESTADÍA",
-        "description" => "Contáctanos ahora para adquirir productos con nosotros, nuestros asesores le ofrecerán atención personalizada.",
+        "title" => "BOOK NOW",
+        "description" => "Contact us now to book at our Marina V&V, our advisors will offer you personalized attention.",
         "img" => "dist/images/products-banner.jpg",
         "alt" => "",
         "btn" => [
-            "text" => "Contáctanos",
+            "text" => "Contact us",
             "link" => "contact"
         ]
     ];
 
     $productsAmenity = [
         "title" => "JRF MARINE & TRADING",
-        "description" => "JRF Marine es nuestra división especializada en venta de productos a mayoreo. Nuestra plataforma integra nuestra red de distribuidores con los principales proveedores del ramo en un sistema de logística moderno. La mejor solución del país en productos marítimos. Contamos con las siguientes marcas como:",
+        "description" => "
+        297/5000
+        JRF Marine is our division specialized in wholesale product sales. Our platform integrates our network of distributors with the main suppliers of the branch in a modern logistics system. The best solution in the country in marine products. We have the following brands:",
         "listFeatures" => [ "BioTech", "Sea Hawk", "3M", "Flitz", "Meguiars", "MTU", "Propspeed", "Tecnoseal", "Wave Armor"],
         "gallery" => [
             [

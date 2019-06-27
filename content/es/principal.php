@@ -1,6 +1,6 @@
 <?php
     // The best marina to stay in cancun
-    $principalTitle = "LA MEJOR MARINA PARA ESTAR<br>ESTAR CANCÚN";
+    $principalTitle = "LA MEJOR MARINA PARA<br>ESTAR CANCÚN";
     $aboutUs = [
         "title" => "NOSOTROS",
         "text" => "Ubicada en el Mar Caribe. Marina V&V ofrece productos, servicios e instalaciones de clase mundial, permitiéndonos llegar más allá de la expectativa. La pasión de nuestros clientes por el mar y sus embarcaciones nos motiva a siempre contar con calidad, innovación y atención insuperable."
@@ -25,7 +25,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "marinanovo.php"
+                    "link" => "marinanovo"
                 ]
             ],
             [
@@ -37,7 +37,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "marinavv.php"
+                    "link" => "marinavv"
                 ]
             ],
             [
@@ -49,7 +49,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "shipyard.php"
+                    "link" => "shipyard"
                 ]
             ],
             [
@@ -61,7 +61,7 @@
                 "alt" => "",
                 "btn" => [
                     "text" => "Más Información",
-                    "link" => "products.php"
+                    "link" => "products"
                 ]
             ]
         ]
@@ -72,7 +72,7 @@
         "text" => "Tu pasión es nuestro principal comprimiso. Contáctanos y conoce más acerca de las promociones y ventajas que tenemos para ti. ",
         "btn" => [
             "text" => "Contáctanos",
-            "link" => "contact.php"
+            "link" => "contact"
         ]
     ];
 

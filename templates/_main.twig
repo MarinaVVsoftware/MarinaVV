@@ -4,8 +4,15 @@
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="ie=edge" http-equiv="X-UA-Compatible">
-        <title>Document</title>
-        {% block head %}{% endblock %}
+        <title>Marina V&amp;V</title>
+        <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="60x60">
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+        <link href="/site.webmanifest" rel="manifest">
+        <link color="#5bbad5" href="/safari-pinned-tab.svg" rel="mask-icon">
+        <meta content="#00aba9" name="msapplication-TileColor">
+        <meta content="#ffffff" name="theme-color"> {% block head %}{% endblock %}
         <style>
             body {
                 opacity: 1;
@@ -54,8 +61,8 @@
                                 {% endif %}
                             {% endfor %}
                             <li class="nav-item px-3 py-2">
-                                <a class="nav-link" href={{item.link}}>
-                                    <span>ENG</span>
+                                <a class="nav-link pointer" data-language="{{ languageToChange }}" id="lang">
+                                    <span>{{ languageToChange|upper }}</span>
                                 </a>
                             </li>
                         </ul>
@@ -69,14 +76,14 @@
                     <img alt="" src="dist/images/marinavv-logo.svg" width="125">
                     <hr class="my-3 border-red" size="2" width="150">
                     <div>
-                        <a class="mx-3" href="https://www.instagram.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
-                            <img alt="" class="img-fluid" src="dist/images/instagram-logo.png" width="23">
+                        <a class="px-3" href="https://www.instagram.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="" class="img-fluid lazy" data-src="dist/images/instagram-logo.png" width="23">
                         </a>
-                        <a class="mx-3 mt-5" href="https://www.facebook.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
-                            <img alt="" class="img-fluid" src="dist/images/facebook-logo.png" width="12">
+                        <a class="px-3" href="https://www.facebook.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="" class="img-fluid lazy" data-src="dist/images/facebook-logo.png" width="12">
                         </a>
-                        <a class="mx-3" href="https://www.youtube.com/channel/UCMjI6kHxXKuX7XVybEX8Onw" rel="nofollow noreferrer noopener" target="_blank">
-                            <img alt="" class="img-fluid" src="dist/images/youtube-logo.png" width="25">
+                        <a class="px-3" href="https://www.youtube.com/channel/UCMjI6kHxXKuX7XVybEX8Onw" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="" class="img-fluid lazy" data-src="dist/images/youtube-logo.png" width="25">
                         </a>
                     </div>
                     <div class="my-3 py-3">

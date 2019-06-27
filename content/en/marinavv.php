@@ -6,7 +6,9 @@
         "alt" => ""
     ];
     
-    $marinavvDescription = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
+    $marinavvDescription = "
+    360/5000
+    Marina V & V, is located opposite the second longest barrier reef in the world. It has an area of 1.5 kilometers and has the capacity to receive 176 vessels of up to 240 feet. Our staff expects to fully satisfy the needs of our clients, always offering an excellent service at the most competitive prices in the area.";
 
     $marinavvGallery = [
         [
@@ -78,64 +80,64 @@
     ];
 
     $marinavvServices = [
-        "title" => "SERVICIOS",
-        "description" => "Nuestro personal espera para satisfacer completamente las necesidades de nuestros clientes ofreciendo un excelente servicio a los precios más competitivos.",
+        "title" => "SERVICES",
+        "description" => "Our staff expects to fully satisfy the needs of our customers by offering excellent service at the most competitive prices.",
         "items" => [
             [
                 "img" => "dist/images/marina-icon.svg",
                 "alt" => "",
-                "title" => "Servicio de Amarre",
-                "description" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies."
+                "title" => "Mooring Service",
+                "description" => "Mooring services are available for boats up to 240 feet."
             ],
             [
                 "img" => "dist/images/flash-icon.svg",
                 "alt" => "",
-                "title" => "Electricidad",
-                "description" => "Servicio electricidad con el amperaje requerido para su embarcación."
+                "title" => "Electric Service",
+                "description" => "Electricity service with the required amperage for your boat."
             ],
             [
                 "img" => "dist/images/police-icon.svg",
                 "alt" => "",
-                "title" => "Servicios de Inmigración",
-                "description" => "Servicios de inmigración para embarcaciones que llegan del extranjero."
+                "title" => "Immigration Service",
+                "description" => "Immigration services for ships arriving from abroad."
             ],
             [
                 "img" => "dist/images/bell-icon.svg",
                 "alt" => "",
-                "title" => "Congierge",
-                "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
+                "title" => "Concierge",
+                "description" => "VIP Concierge service is available for you 365 days a year from 8-5 pm."
             ],
             [
                 "img" => "dist/images/pipe-icon.svg",
                 "alt" => "",
                 "title" => "Desazolve",
-                "description" => "Servicio de desazolve los 365 días del año."
+                "description" => "Desazolve service 365 days a year."
             ],
             [
                 "img" => "dist/images/warehouse-icon.svg",
                 "alt" => "",
-                "title" => "Almacenamiento",
-                "description" => "Bodegas exclusivas para resguardo de artículos de su embarcación."
+                "title" => "Warehouses",
+                "description" => "Exclusive warehouses for protection of articles from your boat."
             ],
             [
                 "img" => "dist/images/van-icon.svg",
                 "alt" => "",
-                "title" => "Transportación",
-                "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
+                "title" => "Shuttles",
+                "description" => "Free Shuttle service on specific days for our VIP clients to the Malls of Cancun"
             ],
             [
                 "img" => "dist/images/gas-icon.svg",
                 "alt" => "",
-                "title" => "Suministro de Combustible",
-                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua."
+                "title" => "Fuel Supply",
+                "description" => "The unique marina with a fuel station that has a 0% water certification."
             ]
         ]
     ];
 
     $marinavvAmenity = [
         "title" => "V&V STORE",
-        "description" => "Nuestra tienda V&V Store, cuenta con una amplia diversidad de productos como botanas, café, cervezas, vinos, agua, refresco, hielo, entre muchas otras. Contamos con servicio de entrega de los productos a tu embarcación para tu comodidad, además, de una sala de entretenimiento para los capitanes donde pueden tener descanso y recreación.",
-        "listFeatures" => [ "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados", "Billar", "Videojuegos", "Sala de recreación" ],
+        "description" => "Our store V & V Store, has a wide variety of products such as snacks, coffee, beer, wine, water, soft drinks, ice, among many others. We have delivery service of the products to your boat for your comfort, in addition, an entertainment room for captains where they can have rest and recreation.",
+        "listFeatures" => [ "Refreshments", "Ice", "Water", "Beers", "Snacks", "Prepared foods", "Billiard Room", "Video games", "Recreation room" ],
         "gallery" => [
             [
                 "img" => "dist/images/store-1.jpg",
@@ -154,19 +156,19 @@
     ];
 
     $marinavvContact = [
-        "title" => "COTIZAR ESTADÍA",
-        "description" => "Contáctanos ahora para reservar en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
+        "title" => "BOOK NOW",
+        "description" => "Contact us now to book at our Marina V&V, our advisors will offer you personalized attention.",
         "img" => "dist/images/banner-marina.jpg",
         "alt" => "",
         "btn" => [
-            "text" => "Contáctanos",
+            "text" => "Contact us",
             "link" => "contact"
         ]
     ];
 
     $marinavvLocation = [
-        "title" => "UBICACIÓN",
-        "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
+        "title" => "LOCATION",
+        "description" => "Marina V & V, is located in front of the second longest barrier reef in the world, a mile from Isla Mujeres makes us the quintessential marina of Cancun. In the same way you can find us on the Road Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400.",
         "lat" => "21.2379962",
         "lng" => "-86.8032239"
     ];

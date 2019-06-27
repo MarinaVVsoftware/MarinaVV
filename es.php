@@ -4,32 +4,37 @@
     require "content/es/marinaNovo.php";
     require "content/es/products.php";
     require "content/es/shipyard.php";
+    require "content/es/contact.php";
     
+    $htmlLanguage = 'es';
+
+    $languageToChange = 'en';
+
     $navbar = [
         [
             "name" => "MARINAS",
             "dropdown" => [
                 [
                     "name" => "NOVO CANCÚN",
-                    "link" => "marinanovo.php"
+                    "link" => "marinanovo"
                 ],
                 [
                     "name" => "V&V",
-                    "link" => "marinavv.php"
+                    "link" => "marinavv"
                 ]
             ]
         ],
         [
             "name" => "ASTILLERO",
-            "link" => "shipyard.php"
+            "link" => "shipyard"
         ], 
         [   
             "name" => "PRODUCTOS",
-            "link" => "products.php"
+            "link" => "products"
         ],
         [
             "name" => "CONTACTO",
-            "link" => "contact.php"
+            "link" => "contact"
         ]
 
     ];
@@ -39,23 +44,23 @@
         "menu" => [
             [
                 "text" => "Marina V&V",
-                "link" => "marinavv.php"
+                "link" => "marinavv"
             ],
             [
                 "text" => "Marina Novo",
-                "link" => "marinanovo.php"
+                "link" => "marinanovo"
             ],
             [
                 "text" => "Astillero",
-                "link" => "shipyard.php"
+                "link" => "shipyard"
             ],
             [
                 "text" => "Productos",
-                "link" => "products.php"
+                "link" => "products"
             ],
             [
                 "text" => "Contacto",
-                "link" => "contact.php"
+                "link" => "contact"
             ]
         ]
     ]

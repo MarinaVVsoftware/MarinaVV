@@ -1,8 +1,10 @@
 <?php
-    require "init.php";
+    require "./init.php";
 
     $params = [
         'navbar' => $navbar,
+        'htmlLanguage' => $htmlLanguage,
+        'languageToChange' => $languageToChange,
         'principalTitle' => $principalTitle,
         'aboutUs' => $aboutUs,
         'nationalQuality' => $nationalQuality,
