@@ -1,4 +1,9 @@
 <?php
+
+$title = "CONTACT";
+
+$buttonText = "Enviar";
+
 $placeholder = [
     "nombre" => "Nombre",
     "nomEmb" => "Embarcación",

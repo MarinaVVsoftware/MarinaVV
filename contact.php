@@ -5,6 +5,8 @@
         'navbar' => $navbar,
         'htmlLanguage' => $htmlLanguage,
         'languageToChange' => $languageToChange,
+        "title" => $title,
+        "buttonText" => $buttonText,
         'placeholder' => $placeholder,
         'location' => $contactLocation,
         'contactsVS' =>$contactVS,

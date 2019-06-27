@@ -92,6 +92,10 @@ import "../images/productsGallery/products-gallery-9.jpg";
 import "../images/productsGallery/products-gallery-10.jpg";
 import "../images/productsGallery/products-gallery-11.jpg";
 
+import "../images/products-1.jpg";
+import "../images/products-2.jpg";
+import "../images/products-3.jpg";
+
 import "../images/store-1.jpg";
 import "../images/store-2.jpg";
 import "../images/store-3.jpg";
