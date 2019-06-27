@@ -5,7 +5,8 @@
     require "content/en/products.php";
     require "content/en/shipyard.php";
     require "content/en/contact.php";
-    
+    require "content/en/404.php";
+
     $htmlLanguage = 'en';
 
     $languageToChange = 'es';

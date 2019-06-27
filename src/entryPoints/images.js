@@ -131,3 +131,5 @@ import "../images/shipyard/fibra-after.jpg";
 import "../images/shipyard/fibra-before.jpg";
 import "../images/shipyard/motor-after.jpg";
 import "../images/shipyard/motor-before.jpg";
+
+import "../images/yatch-background.jpg";
