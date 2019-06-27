@@ -1,4 +1,7 @@
 {% extends "_main.twig" %}
+{% block head %}
+    <meta content="{{ aboutUs.text }}" name="Description">
+{% endblock %}
 {% block body %}
     <header class="video-header">
         <div class="overlay"></div>
@@ -10,9 +13,9 @@
                 <div class="w-100 text-white">
                     <h1 class="display-3" data-aos-duration="1000" data-aos="fade-up">{{ principalTitle|raw }}</h1>
                 </div>
-                <div class="w-100 position-absolute absolute-bottom absolute-right py-2">
+                <div class="w-100 position-absolute absolute-bottom absolute-right my-2">
                     <p class="text-white m-0">SCROLL</p>
-                    <a href="#aboutUs">
+                    <a aria-label="Scroll" href="#aboutUs">
                         <span class="arrow-down"></span>
                     </a>
                 </div>

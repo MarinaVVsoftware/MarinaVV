@@ -1,4 +1,7 @@
 {% extends "_main.twig" %}
+{% block head %}
+    <meta content="Marina V&amp;V Contact" name="Description">
+{% endblock %}
 {% block body %}
     <header class="hero">
         <div class="map-hero" id="map" data-lat="{{ location.lat }}" data-lng="{{ location.lng }}"></div>
