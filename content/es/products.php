@@ -94,15 +94,15 @@
         "listFeatures" => [ "BioTech", "Sea Hawk", "3M", "Flitz", "Meguiars", "MTU", "Propspeed", "Tecnoseal", "Wave Armor"],
         "gallery" => [
             [
-                "img" => "dist/images/marinatown-1.jpg",
+                "img" => "dist/images/products-1.jpg",
                 "alt" => ""
             ],
             [
-                "img" => "dist/images/marinatown-2.jpg",
+                "img" => "dist/images/products-2.jpg",
                 "alt" => ""
             ],
             [
-                "img" => "dist/images/hotelzone-1.jpg",
+                "img" => "dist/images/products-3.jpg",
                 "alt" => ""
             ]
         ],

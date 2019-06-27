@@ -1,14 +1,13 @@
 <?php
     // The best marina to stay in cancun
-    $principalTitle = "THE BEST MARINA TO STAY<br>IN CANCÚN";
+    $principalTitle = "THE BEST MARINA TO STAY<br>IN CANCUN";
     $aboutUs = [
         "title" => "ABOUT US",
         "text" => "Located in the Caribbean Sea. Marina V&V offers world-class products, services and facilities, allowing us to reach beyond expectation. The passion of our customers for the sea and its yachts motivates us to always count on quality, innovation and unsurpassed attention."
     ];
     $nationalQuality = [
-        "title" => "LA MEJOR CALIDAD",
+        "title" => "THE BEST QUALITY",
         "text" => "
-        598/5000
         We offer world-class services such as the shipyard that has an area of more than 6 thousand square meters, with capacity to receive vessels of up to 100 tons.
         Located in front of the second longest barrier reef in the world, Marina V & V has an extension of 1.5 kilometers and has the capacity to receive 176 vessels of up to 240 feet.
         The Marina Novo Cancun, located in one of the most prestigious resorts in the state, offers luxury services with staff available 24 hours a day and spaces for boats up to 100 feet.",
@@ -21,7 +20,7 @@
             [
                 // True for right text, false for left text
                 "direction" => true,
-                "title" => "NOVO CANCÚN",
+                "title" => "NOVO CANCUN",
                 "text" => "Novo Cancun Marina Boutique, located in one of the most prestigious resorts in the state, offers luxury services with staff available 24 hours a day and spaces for boats up to 100 feet.",
                 "img" => "dist/images/marinanovo-section.jpg",
                 "alt" => "",
@@ -38,7 +37,7 @@
                 "img" => "dist/images/marinavv-section.jpg",
                 "alt" => "",
                 "btn" => [
-                    "text" => "Más Información",
+                    "text" => "More info",
                     "link" => "marinavv"
                 ]
             ],

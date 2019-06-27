@@ -5,7 +5,8 @@
     require "content/en/products.php";
     require "content/en/shipyard.php";
     require "content/en/contact.php";
-    
+    require "content/en/404.php";
+
     $htmlLanguage = 'en';
 
     $languageToChange = 'es';
@@ -15,7 +16,7 @@
             "name" => "MARINAS",
             "dropdown" => [
                 [
-                    "name" => "NOVO CANCÚN",
+                    "name" => "NOVO CANCUN",
                     "link" => "marinanovo"
                 ],
                 [
@@ -25,22 +26,22 @@
             ]
         ],
         [
-            "name" => "ASTILLERO",
+            "name" => "SHIPYARD",
             "link" => "shipyard"
         ], 
         [   
-            "name" => "PRODUCTOS",
+            "name" => "PRODUCTS",
             "link" => "products"
         ],
         [
-            "name" => "CONTACTO",
+            "name" => "CONTACT",
             "link" => "contact"
         ]
 
     ];
 
     $footer = [
-        "address" => "Calle Vialidad Paseo Mujeres Manzana 1, Lote 1 Zona Continental Isla Mujeres Q. Roo.",
+        "address" => "Streeth Vialidad Paseo Mujeres Manzana 1, Lote 1 Zona Continental Isla Mujeres Q. Roo.",
         "menu" => [
             [
                 "text" => "Marina V&V",
@@ -51,15 +52,15 @@
                 "link" => "marinanovo"
             ],
             [
-                "text" => "Astillero",
+                "text" => "Shipyard",
                 "link" => "shipyard"
             ],
             [
-                "text" => "Productos",
+                "text" => "Products",
                 "link" => "products"
             ],
             [
-                "text" => "Contacto",
+                "text" => "Contact",
                 "link" => "contact"
             ]
         ]

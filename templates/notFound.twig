@@ -1,0 +1,19 @@
+{% extends "_main.twig" %}
+{% block head %}
+    <meta content="Marina V&amp;V Contact" name="Description">
+{% endblock %}
+{% block body %}
+    <main class="container-fluid d-flex justify-content-center align-items-center not-found">
+        <section class="row">
+            <div class="col text-center">
+                <div class="mb-5">
+                    <h1 class="text-white not-found-title mb-0">404</h1>
+                    <h1 class="text-white not-found-subtitle">
+                        {{ title404 }}
+                    </h1>
+                </div>
+                <a class="btn-lg px-5 py-3 btn-blue" href="/">{{ buttonText404 }}</a>
+            </div>
+        </section>
+    </main>
+{% endblock %}

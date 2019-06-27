@@ -1,4 +1,7 @@
 {% extends "_main.twig" %}
+{% block head %}
+    <meta content="Marina V&amp;V Contact" name="Description">
+{% endblock %}
 {% block body %}
     <header class="hero">
         <div class="map-hero" id="map" data-lat="{{ location.lat }}" data-lng="{{ location.lng }}"></div>
@@ -6,7 +9,7 @@
 
     <main>
         <section class="container-fluid py-5 my-md-5 px-0" id="contact">
-            <h1 class="text-center pb-5">CONTACTO</h1>
+            <h1 class="text-center pb-5">{{ title }}</h1>
             <div class="row no-gutters">
                 <div class="col-12 col-lg-6" data-aos="fade-right">
                     <img class="w-100 img-fluid lazy" data-src="dist/images/contact.jpg">
@@ -73,7 +76,7 @@
                         <textarea name="req" class="form-control" id="req" placeholder={{placeholder.requerimentos}} type="multi-line"></textarea>
                     </div>
                 </div>
-                <button class="btn-lg px-5 py-2 btn-blue" type="submit">Enviar</button>
+                <button class="btn-lg px-5 py-2 btn-blue" type="submit">{{ buttonText }}</button>
             </form>
         </section>
 
