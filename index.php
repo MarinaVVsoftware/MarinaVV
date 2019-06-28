@@ -5,6 +5,7 @@
         'navbar' => $navbar,
         'htmlLanguage' => $htmlLanguage,
         'languageToChange' => $languageToChange,
+        'videoBackground' => "/marinavv_video.mp4",
         'principalTitle' => $principalTitle,
         'aboutUs' => $aboutUs,
         'nationalQuality' => $nationalQuality,
