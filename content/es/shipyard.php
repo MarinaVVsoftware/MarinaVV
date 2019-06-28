@@ -6,6 +6,8 @@
         "alt" => ""
     ];
     
+    $shipyardTitle = "SERVICIOS";
+
     $shipyardDescription = "En nuestro Varadero disponemos de talleres propios para solventar cualquier problema de su embarcación, nuestro personal certificado esta calificado para ofrecerle siempre la mejor opción, Contamos con un amplia variedad de servicios, entre los cuales siempre encontrará el indicado para sus proyectos, cada uno de nuestros trabajos están garantizados por nuestro profesionalismo, experiencia y tecnología de punta.";
 
     $shipyardServices = [

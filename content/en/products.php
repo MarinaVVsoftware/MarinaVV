@@ -91,7 +91,6 @@
     $productsAmenity = [
         "title" => "JRF MARINE & TRADING",
         "description" => "
-        297/5000
         JRF Marine is our division specialized in wholesale product sales. Our platform integrates our network of distributors with the main suppliers of the branch in a modern logistics system. The best solution in the country in marine products. We have the following brands:",
         "listFeatures" => [ "BioTech", "Sea Hawk", "3M", "Flitz", "Meguiars", "MTU", "Propspeed", "Tecnoseal", "Wave Armor"],
         "gallery" => [

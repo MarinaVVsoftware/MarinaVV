@@ -6,6 +6,8 @@
         "alt" => ""
     ];
     
+    $shipyardTitle = "SERVICES";
+    
     $shipyardDescription = "In our shipyard we have our own workshops to solve any problem of your boat, our certified staff is qualified to always offer you the best option, We have a wide variety of services, among which you will always find the right one for your projects, each one of our Jobs are guaranteed by our professionalism, experience and cutting-edge technology.";
 
     $shipyardServices = [
@@ -131,11 +133,11 @@
             ],
             "imgCompare" => [
                 [
-                    "imgBefore" => "dist/images/propulsion-before.jpg",
+                    "imgBefore" => "dist/images/fibra-before.jpg",
                     "altBefore" => ""
                 ],
                 [
-                    "imgAfter" => "dist/images/propulsion-after.jpg",
+                    "imgAfter" => "dist/images/fibra-after.jpg",
                     "altAfter" => ""
                 ]
             ],
@@ -162,11 +164,11 @@
             ],
             "imgCompare" => [
                 [
-                    "imgBefore" => "dist/images/propulsion-before.jpg",
+                    "imgBefore" => "dist/images/motor-before.jpg",
                     "altBefore" => ""
                 ],
                 [
-                    "imgAfter" => "dist/images/propulsion-after.jpg",
+                    "imgAfter" => "dist/images/motor-after.jpg",
                     "altAfter" => ""
                 ]
             ],

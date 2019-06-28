@@ -18,7 +18,7 @@
             <p data-aos="fade-up">{{ description }}</p>
         </section>
         <section class="container-fluid px-0 pt-5 mt-md-5 " id="shipyard">
-            <h1 class="text-center pb-3 mb-lg-5">SERVICIOS</h1>
+            <h1 class="text-center pb-3 mb-lg-5">{{ title }}</h1>
             {% for service in services %}
                 {% if service.right %}
                     <div class="row no-gutters mb-md-5 pb-5">
@@ -37,7 +37,7 @@
                             </div>
                             <ul class="column-count-4-responsive pl-xl-2 services-list">
                                 {% for item in service.list %}
-                                    <li class="py-3 px-2">{{ item }}</li>
+                                    <li class="mb-3 mb-xl-4 px-2">{{ item }}</li>
                                 {% endfor %}
                             </ul>
                         </div>
@@ -53,7 +53,7 @@
                             </div>
                             <ul class="column-count-4-responsive pl-xl-2 services-list">
                                 {% for item in service.list %}
-                                    <li class="py-3 px-2">{{ item }}</li>
+                                    <li class="mb-3 mb-xl-4 px-2">{{ item }}</li>
                                 {% endfor %}
                             </ul>
                         </div>
