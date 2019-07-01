@@ -5,7 +5,7 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
 # https://htaccessbook.com/useful-htaccess-rules/
-<filesMatch ".(ttf|woff|css|js|jpg|jpeg|png|gif|svg|ico)$">
+<filesMatch ".(ttf|woff|css|js|jpg|jpeg|png|gif|svg|ico|mp4)$">
     Header set Cache-Control "max-age=31536000, public"
 </filesMatch>
 
