@@ -1,4 +1,4 @@
-import axios from "axios";
+import request from "./request";
 
 const lang = document.getElementById("lang");
 
@@ -7,8 +7,7 @@ lang.addEventListener("click", () => {
     language: lang.dataset.language
   };
 
-  axios
-    .post("setLanguage.php", params)
+  request("setLanguage.php", params)
     .then(response => {
       location.reload();
     })
