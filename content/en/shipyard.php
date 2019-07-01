@@ -3,7 +3,7 @@
         "title" => "SHIPYARD",
         "src" => "dist/images/shipyard-hero.jpg",
         "srcMob" => "dist/images/shipyard-hero-mob.jpg",
-        "alt" => ""
+        "alt" => "Find the Shipyard at Marina V&amp;V."
     ];
     
     $shipyardTitle = "SERVICES";
@@ -49,11 +49,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/electricity-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problems with electricity."
                 ],
                 [
                     "imgAfter" => "dist/images/electricity-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Electricity work in Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -72,11 +72,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/propulsion-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Propulsion problems."
                 ],
                 [
                     "imgAfter" => "dist/images/propulsion-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Work of propulsion in the shipyard of the Marina V&amp;V."
                 ]
             ],
             "right" => false
@@ -110,11 +110,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/ac-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Air Conditioning Problems."
                 ],
                 [
                     "imgAfter" => "dist/images/ac-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Air conditioning work in the shipyard of the Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -134,11 +134,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/fibra-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Fiberglass problems."
                 ],
                 [
                     "imgAfter" => "dist/images/fibra-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Fiberglass work in the shipyard of the Marina V&amp;V."
                 ]
             ],
             "right" => false
@@ -165,11 +165,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/motor-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Engine problems."
                 ],
                 [
                     "imgAfter" => "dist/images/motor-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Motor work in the shipyard of the Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -181,7 +181,7 @@
         "title" => "BOOK NOW",
         "description" => "Contact us now to book at our Marina V&V, our advisors will offer you personalized attention.",
         "img" => "dist/images/banner-marina.jpg",
-        "alt" => "",
+        "alt" => "Shipyard in the Marina V&amp;V.",
         "btn" => [
             "text" => "Contact Us",
             "link" => "contact"
