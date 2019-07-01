@@ -109,11 +109,11 @@
             ],
             "imgCompare" => [
                 [
-                    "imgBefore" => "dist/images/electricity-before.jpg",
+                    "imgBefore" => "dist/images/ac-before.jpg",
                     "altBefore" => ""
                 ],
                 [
-                    "imgAfter" => "dist/images/electricity-after.jpg",
+                    "imgAfter" => "dist/images/ac-after.jpg",
                     "altAfter" => ""
                 ]
             ],

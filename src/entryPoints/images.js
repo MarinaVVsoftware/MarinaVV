@@ -134,3 +134,6 @@ import "../images/shipyard/motor-before.jpg";
 
 import "../images/yatch-background.jpg";
 import "../images/homeBackground.jpg";
+
+import "../images/shipyard/ac-after.jpg";
+import "../images/shipyard/ac-before.jpg";
