@@ -22,7 +22,7 @@
                 "title" => "NOVO CANCÚN",
                 "text" => "Novo Cancún marina Boutique, ubicada en uno de los complejos de mayor prestigio del estado, ofrece servicios de lujo con personal disponible las 24 horas del dia y espacios para embarcaciones de hasta 100 pies.",
                 "img" => "dist/images/marinanovo-section.jpg",
-                "alt" => "",
+                "alt" => "Marina Novo Cancún.",
                 "btn" => [
                     "text" => "Más Información",
                     "link" => "marinanovo"
@@ -34,7 +34,7 @@
                 "title" => "MARINA V&V",
                 "text" => "Ubicada frente a la segunda barrera de coral más larga del mundo la Marina V&V posee una extensión de 1.5 kilometros y cuenta con capacidad para recibir 176 embarcaciones de hasta 240 pies.",
                 "img" => "dist/images/marinavv-section.jpg",
-                "alt" => "",
+                "alt" => "Marina V&amp;V Cancún.",
                 "btn" => [
                     "text" => "Más Información",
                     "link" => "marinavv"
@@ -46,7 +46,7 @@
                 "title" => "ASTILLERO",
                 "text" => "Nuestro astillero cuenta con una extensión de mas de 6 mil metros cuadrados, con capacidad de recibir embarcaciones de hasta 100 toneladas. Ofrecemos más de 100 servicios, que van desde estética hasta propulsión.",
                 "img" => "dist/images/astillero-section.jpg",
-                "alt" => "",
+                "alt" => "Marina V&amp; cuenta con un astillero.",
                 "btn" => [
                     "text" => "Más Información",
                     "link" => "shipyard"
@@ -58,7 +58,7 @@
                 "title" => "PRODUCTOS JRF",
                 "text" => "En JRF Marine contamos con contratos únicos y exclusivos con las mejores marcas de productos marítimos, además de contar con el más amplio surtido online del país.",
                 "img" => "dist/images/yatch-section.jpg",
-                "alt" => "",
+                "alt" => "Productos JRF.",
                 "btn" => [
                     "text" => "Más Información",
                     "link" => "products"

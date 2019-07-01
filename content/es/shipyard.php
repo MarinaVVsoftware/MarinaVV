@@ -3,7 +3,7 @@
         "title" => "ASTILLERO",
         "src" => "dist/images/shipyard-hero.jpg",
         "srcMob" => "dist/images/shipyard-hero-mob.jpg",
-        "alt" => ""
+        "alt" => "Encuentra el astillero en la Marina V&amp;V."
     ];
     
     $shipyardTitle = "SERVICIOS";
@@ -49,11 +49,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/electricity-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problemas con electricidad."
                 ],
                 [
                     "imgAfter" => "dist/images/electricity-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Trabajos de electricidad en Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -72,11 +72,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/propulsion-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problemas de propulsión."
                 ],
                 [
                     "imgAfter" => "dist/images/propulsion-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Trabajo de propulsión en el astillero de la Marina V&amp;V."
                 ]
             ],
             "right" => false
@@ -110,11 +110,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/ac-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problemas de Aire Acondicionado."
                 ],
                 [
                     "imgAfter" => "dist/images/ac-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Trabajo de aire acondicionado en el astillero de la Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -135,11 +135,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/fibra-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problemas de fibra de vidrio."
                 ],
                 [
                     "imgAfter" => "dist/images/fibra-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Trabajo de fibra de vidrio en el astillero de la Marina V&amp;V."
                 ]
             ],
             "right" => false
@@ -167,11 +167,11 @@
             "imgCompare" => [
                 [
                     "imgBefore" => "dist/images/motor-before.jpg",
-                    "altBefore" => ""
+                    "altBefore" => "Problemas de motor."
                 ],
                 [
                     "imgAfter" => "dist/images/motor-after.jpg",
-                    "altAfter" => ""
+                    "altAfter" => "Trabajo de motor en el astillero de la Marina V&amp;V."
                 ]
             ],
             "right" => true
@@ -183,7 +183,7 @@
         "title" => "COTIZAR SERVICIOS",
         "description" => "Contáctanos ahora para mayor información en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/shipyard-banner.jpg",
-        "alt" => "",
+        "alt" => "Astillero en la Marina V&amp;V.",
         "btn" => [
             "text" => "Contáctanos",
             "link" => "contact"

@@ -8,7 +8,7 @@
         <picture>
             <source media="(max-width: 768px)" srcset="{{ hero.srcMob }}">
             <source media="(min-width: 769px)" srcset="{{ hero.src }}">
-            <img class="lazy" data-src="{{ hero.src }}">
+            <img class="lazy" alt="{{ hero.alt }}" data-src="{{ hero.src }}">
         </picture>
         <div class="overlay"></div>
         <h2 class="title text-center mb-5">{{ hero.title }}</h2>
@@ -23,7 +23,7 @@
                 {% for item in gallery %}
                     <div class="grid-item {{ item.class }}">
                         <a data-fancybox="gallery" href="{{ item.img }}">
-                            <img class="w-100 h-100 img-fluid" src="{{ item.imgThumbnail }}">
+                            <img class="w-100 h-100 img-fluid" alt="{{ item.alt }}" src="{{ item.imgThumbnail }}">
                         </a>
                     </div>
                 {% endfor %}
@@ -36,7 +36,7 @@
                     <div class="swiper-wrapper">
                         {% for item in amenity.gallery %}
                             <div class="swiper-slide">
-                                <img alt="" class="w-100 img-fluid lazy" data-src="{{ item.img }}">
+                                <img alt="{{ item.alt }}" class="w-100 img-fluid lazy" data-src="{{ item.img }}">
                             </div>
                         {% endfor %}
                     </div>
@@ -60,19 +60,19 @@
             <h1 class="text-center pb-3 mb-lg-5">{{ amenity.title }}</h1>
             <div class="row justify-content-center">
                 <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
-                    <img alt="" class="img-fluid lazy" data-src="dist/images/propspeed-logo.png">
+                    <img alt="Productos Propspeed" class="img-fluid lazy" data-src="dist/images/propspeed-logo.png">
                 </div>
                 <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
-                    <img alt="" class="img-fluid lazy" data-src="dist/images/flitz-logo.png">
+                    <img alt="Productos Flitz" class="img-fluid lazy" data-src="dist/images/flitz-logo.png">
                 </div>
                 <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
-                    <img alt="" class="img-fluid lazy" data-src="dist/images/biotech-logo.png">
+                    <img alt="Productos Biotech" class="img-fluid lazy" data-src="dist/images/biotech-logo.png">
                 </div>
                 <div class="col-3 col-md mx-md-5 mx-2 my-3 d-flex align-items-center">
-                    <img alt="" class="img-fluid lazy" data-src="dist/images/tecnomar-logo.png">
+                    <img alt="Productos Tecnomar" class="img-fluid lazy" data-src="dist/images/tecnomar-logo.png">
                 </div>
                 <div class="col-3 col-md mx-md-5 my-3 d-flex align-items-center">
-                    <img alt="" class="img-fluid lazy" data-src="dist/images/seahawk-logo.png">
+                    <img alt="Productos SeaHawk" class="img-fluid lazy" data-src="dist/images/seahawk-logo.png">
                 </div>
             </div>
         </section>

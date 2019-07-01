@@ -3,7 +3,7 @@
         "title" => "JRF PRODUCTOS",
         "src" => "dist/images/products-hero.jpg",
         "srcMob" => "dist/images/products-hero-mob.jpg",
-        "alt" => ""
+        "alt" => "Productos JRF en la Marina V&amp;V."
     ];
     
     $productsDescription = "Contamos con una amplia variedad de productos para su barco, desde productos de mantenimiento, pinturas y reparación hasta piezas de motores, ánodos, y electrónica. Tenemos trato directo con los mejores proveedores del ramo y stocks inteligentes para siempre disponer de la mejor calidad para usted.";
@@ -13,67 +13,67 @@
             "class" => "",
             "img" => "dist/images/products-gallery-1.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-1.jpg",
-            "alt" => ""
+            "alt" => "Compra productos BioTech en la Marina V&amp;V."
         ],
         [
             "class" => "grid-item--width2",
             "img" => "dist/images/products-gallery-3.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-3.jpg",
-            "alt" => ""
+            "alt" => "Productos 3M en la Marina V&amp;V."
         ],
         [
             "class" => "grid-item--height2",
             "img" => "dist/images/products-gallery-5.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-5.jpg",
-            "alt" => ""
+            "alt" => "Productos Wave Armor."
         ],
         [
             "class" => "grid-item--height2",
             "img" => "dist/images/products-gallery-6.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-6.jpg",
-            "alt" => ""
+            "alt" => "Productos Flitz"
         ],
         [
             "class" => "",
             "img" => "dist/images/products-gallery-2.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-2.jpg",
-            "alt" => ""
+            "alt" => "Productos Sea Hawk."
         ],
         [
             "class" => "grid-item--width2",
             "img" => "dist/images/products-gallery-7.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-7.jpg",
-            "alt" => ""
+            "alt" => "Encuentra los mejores productos de Biotech en la Marina V&amp;V."
         ],
         [
             "class" => "",
             "img" => "dist/images/products-gallery-11.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-11.jpg",
-            "alt" => ""
+            "alt" => "Los mejores prodcutos de Sea Hawk en la Marina V&amp;V."
         ],
         [
             "class" => "grid-item--width2",
             "img" => "dist/images/products-gallery-10.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-10.jpg",
-            "alt" => ""
+            "alt" => "Los mejores prodcutos de Sea Hawk en la Marina V&amp;V."
         ],
         [
             "class" => "",
             "img" => "dist/images/products-gallery-4.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-4.jpg",
-            "alt" => ""
+            "alt" => "Los mejores prodcutos de Flitz en la Marina V&amp;V."
         ],
         [
             "class" => "grid-item--height2",
             "img" => "dist/images/products-gallery-8.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-8.jpg",
-            "alt" => ""
+            "alt" => "Los mejores prodcutos de Flitz en la Marina V&amp;V."
         ],
         [
             "class" => "grid-item--height2",
             "img" => "dist/images/products-gallery-9.jpg",
             "imgThumbnail" => "dist/images/products-gallery-thumbnail-9.jpg",
-            "alt" => ""
+            "alt" => "Los mejores prodcutos de Biotech en la Marina V&amp;V."
         ]
     ];
 
@@ -81,7 +81,7 @@
         "title" => "COTIZAR ESTADÍA",
         "description" => "Contáctanos ahora para adquirir productos con nosotros, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/products-banner.jpg",
-        "alt" => "",
+        "alt" => "Prodcutos JRF",
         "btn" => [
             "text" => "Contáctanos",
             "link" => "contact"
@@ -95,15 +95,15 @@
         "gallery" => [
             [
                 "img" => "dist/images/products-1.jpg",
-                "alt" => ""
+                "alt" => "Aplicación de productos Biotech."
             ],
             [
                 "img" => "dist/images/products-2.jpg",
-                "alt" => ""
+                "alt" => "Pulido con prodcutos Biotech."
             ],
             [
                 "img" => "dist/images/products-3.jpg",
-                "alt" => ""
+                "alt" => "Servicios de pintura en Marina V&amp;V."
             ]
         ],
 

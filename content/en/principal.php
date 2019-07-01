@@ -23,7 +23,7 @@
                 "title" => "NOVO CANCUN",
                 "text" => "Novo Cancun Marina Boutique, located in one of the most prestigious resorts in the state, offers luxury services with staff available 24 hours a day and spaces for boats up to 100 feet.",
                 "img" => "dist/images/marinanovo-section.jpg",
-                "alt" => "",
+                "alt" => "Marina Novo Cancun.",
                 "btn" => [
                     "text" => "More info",
                     "link" => "marinanovo"
@@ -35,7 +35,7 @@
                 "title" => "MARINA V&V",
                 "text" => "Located in front of the second longest barrier reef in the world, Marina V & V has an extension of 1.5 kilometers and has the capacity to receive 176 boats of up to 240 feet.",
                 "img" => "dist/images/marinavv-section.jpg",
-                "alt" => "",
+                "alt" => "Marina V&amp;V Cancun.",
                 "btn" => [
                     "text" => "More info",
                     "link" => "marinavv"
@@ -47,7 +47,7 @@
                 "title" => "SHIPYARD",
                 "text" => "Our shipyard has an extension of more than 6 thousand square meters, with capacity to receive vessels of up to 100 tons. We offer more than 100 services, ranging from aesthetics to propulsion.",
                 "img" => "dist/images/astillero-section.jpg",
-                "alt" => "",
+                "alt" => "Marina V&amp;V It has a shipyard.",
                 "btn" => [
                     "text" => "More info",
                     "link" => "shipyard"
@@ -59,7 +59,7 @@
                 "title" => "PRODUCTS JRF",
                 "text" => "At JRF Marine we have unique and exclusive contracts with the best brands of maritime products, in addition to having the widest online assortment in the country.",
                 "img" => "dist/images/yatch-section.jpg",
-                "alt" => "",
+                "alt" => "JRF Products.",
                 "btn" => [
                     "text" => "More info",
                     "link" => "products"
