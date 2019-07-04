@@ -180,10 +180,16 @@ var styles = [
         styles
       });
 
-      new google.maps.Marker({
+      var marker = new google.maps.Marker({
         position: new google.maps.LatLng(centerMap),
         map,
         icon: "dist/images/marker.png"
+      });
+
+      marker.addListener("click", function() {
+        window.open(
+          `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`
+        );
       });
     }
 
