@@ -167,6 +167,9 @@
     $marinavvLocation = [
         "title" => "UBICACIÓN",
         "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
+        "inputPlaceholder" => "Escribe tu Ubicación Actual",
+        "buttonText" => "Enviar",
+        "location" => "Marina V&V",
         "lat" => "21.2379962",
         "lng" => "-86.8032239"
     ];

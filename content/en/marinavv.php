@@ -167,6 +167,9 @@
     $marinavvLocation = [
         "title" => "LOCATION",
         "description" => "Marina V & V, is located in front of the second longest barrier reef in the world, a mile from Isla Mujeres makes us the quintessential marina of Cancun. In the same way you can find us on the Road Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400.",
+        "inputPlaceholder" => "Write your Actual Location",
+        "buttonText" => "Send",
+        "location" => "Marina V&V",
         "lat" => "21.2379962",
         "lng" => "-86.8032239"
     ];

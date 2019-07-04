@@ -240,6 +240,12 @@ h2
     justify-content: center
     align-items: center
 
+.masonry-hover
+    opacity: 1
+    transition: all 150ms linear
+    &:hover
+        opacity: 0.7
+
 .column-count-2
     column-count: 2 !important
 
@@ -318,3 +324,30 @@ button
     font-family: "Raleway", sans-serif
     letter-spacing: 2px
     font-weight: 300
+
+.cocoen-drag:before
+    background: white
+    content: ""
+    height: 40px !important
+    left: 50%
+    margin-left: -20px !important
+    margin-top: -18px
+    position: absolute
+    top: 50%
+    width: 40px !important
+    border-radius: 50% !important
+    animation: pulse 2s ease 0s infinite
+
+.cocoen-drag:hover:before
+    animation: none
+
+@keyframes pulse
+  0%
+      opacity: 1
+      transform: scale(1)
+  70%
+      opacity: 0.8
+      transform: scale(1.5)
+  100%
+      opacity: 1
+      transform: scale(1)

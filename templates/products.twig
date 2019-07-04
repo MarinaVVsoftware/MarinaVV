@@ -36,11 +36,12 @@
                     <div class="swiper-wrapper">
                         {% for item in amenity.gallery %}
                             <div class="swiper-slide">
-                                <img alt="{{ item.alt }}" class="w-100 img-fluid lazy" data-src="{{ item.img }}">
+                                <img alt="{{ item.alt }}" class="w-100 img-fluid" src="{{ item.img }}">
                             </div>
                         {% endfor %}
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
                 <div class="col-12 col-md-6 pt-2 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
                     <h1 data-aos="fade-up">{{ amenity.title }}</h1>

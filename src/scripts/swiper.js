@@ -1,8 +1,12 @@
 import Swiper from "swiper";
 
 var swiper = new Swiper(".swiper-container", {
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
+  },
+  loop: true,
+  autoplay: {
+    delay: 3000
   }
 });

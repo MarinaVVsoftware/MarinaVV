@@ -166,6 +166,7 @@ var styles = [
 (() => {
   try {
     var $map = document.getElementById("map");
+    var input = document.getElementById("searchTextField");
 
     if ($map) {
       const lat = Number($map.dataset.lat);
@@ -184,6 +185,13 @@ var styles = [
         map,
         icon: "dist/images/marker.png"
       });
+    }
+
+    if (input) {
+      var options = {
+        componentRestrictions: { country: "MX" }
+      };
+      new google.maps.places.Autocomplete(input, options);
     }
   } catch (er) {
     console.log(er);

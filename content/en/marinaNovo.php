@@ -166,6 +166,9 @@
     $marinaNovoLocation = [
         "title" => "LOCATION",
         "description" => "Our Marina Novo Cancun, is located in the best area of the city. Go up with us and enjoy the best destinations Quintana Roo has for you.",
+        "inputPlaceholder" => "Write your Actual Location",
+        "buttonText" => "Send",
+        "location" => "Marina Novo Cancún",
         "lat" => "21.167037",
         "lng" => "-86.807496"
     ];

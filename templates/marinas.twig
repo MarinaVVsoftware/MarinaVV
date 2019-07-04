@@ -21,7 +21,7 @@
         <section class="container-fluid pt-5 mt-md-5" id="gallery">
             <div class="grid">
                 {% for item in gallery %}
-                    <div class="grid-item {{ item.class }}">
+                    <div class="grid-item {{ item.class }} masonry-hover">
                         <a data-fancybox="gallery" href="{{ item.img }}">
                             <img class="w-100 h-100 img-fluid" alt="{{ item.alt }}" src="{{ item.imgThumbnail }}">
                         </a>
@@ -56,11 +56,12 @@
                     <div class="swiper-wrapper">
                         {% for item in amenity.gallery %}
                             <div class="swiper-slide">
-                                <img alt="{{ item.alt }}" class="w-100 img-fluid lazy" data-src="{{ item.img }}">
+                                <img alt="{{ item.alt }}" class="w-100 img-fluid" src="{{ item.img }}">
                             </div>
                         {% endfor %}
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
                 <div class="col-12 col-md-6 pt-2 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
                     <h1 data-aos="fade-up">{{ amenity.title }}</h1>
@@ -86,6 +87,15 @@
                 <div class="col-12 col-md-6 pt-2 px-3 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
                     <h1>{{ location.title }}</h1>
                     <p class="pr-auto pr-md-5">{{ location.description }}</p>
+                    <form action="https://maps.google.com/maps" method="get" target="_blank">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <input class="form-control mb-3" id="searchTextField" name="saddr" placeholder="{{ location.inputPlaceholder }}" type="text">
+                                <input name="daddr" type="hidden" value="{{ location.location }}"/>
+                                <button class="btn-lg px-5 py-2 mb-3 btn-blue" id="facilities" type="submit" value="Get directions">{{ location.buttonText }}</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

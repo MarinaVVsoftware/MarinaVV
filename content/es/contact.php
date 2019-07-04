@@ -1,6 +1,6 @@
 <?php
 
-$title = "CONTACT";
+$title = "CONTACTO";
 
 $buttonText = "Enviar";
 

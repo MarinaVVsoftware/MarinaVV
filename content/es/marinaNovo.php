@@ -166,6 +166,9 @@
     $marinaNovoLocation = [
         "title" => "UBICACIÓN",
         "description" => "Nuestra Marina Novo Cancún, se ubica en la de mejor zona de la ciudad. Arriba con nosotros y disfruta de los mejores destinos que tiene la Quintana Roo para usted.",
+        "inputPlaceholder" => "Escribe tu Ubicación Actual",
+        "buttonText" => "Enviar",
+        "location" => "Marina Novo Cancún",
         "lat" => "21.167037",
         "lng" => "-86.807496"
     ];
