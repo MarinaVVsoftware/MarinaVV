@@ -6,7 +6,7 @@
         "alt" => "Marina V&amp;V en Cancún Quintana Roo."
     ];
     
-    $marinavvDescription = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilométros y cuanta con capacidad para recibir 176 embarcaciones de hasta 240 pies. Nuestro personal espera satisfacer completamente las necesidades de nuestros clientes, siempre ofreciendo un excelente servicio a los precios mas competitivos de la zona.";
+    $marinavvDescription = "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo. Posee una extensión de 1.5 kilómetros y cuenta con capacidad para recibir 176 embarcaciones de más de 200 pies. Ofrecemos servicios de clase mundial contando con el mejor personal capacitado en el servicio y atención al cliente, con la disposición de atender sus necesidades.";
 
     $marinavvGallery = [
         [
@@ -83,27 +83,34 @@
         "items" => [
             [
                 "img" => "dist/images/marina-icon.svg",
-                "alt" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies.",
+                "alt" => "Servicios de amarre están disponibles para embarcaciones más de 200 pies.",
                 "title" => "Servicio de Amarre",
-                "description" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies."
+                "description" => "Servicios de amarre están disponibles para embarcaciones más de 200 pies."
+            ],
+            [
+                "img" => "dist/images/bell-icon.svg",
+                "alt" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde.",
+                "title" => "Concierge",
+                "description" => "Servicio de VIP Concierge está disponible para usted 365 días del año de 8-5 de tarde durante su estancia con nosotros (aplica a barcos de más de 100 pies)."
             ],
             [
                 "img" => "dist/images/flash-icon.svg",
                 "alt" => "Servicio electricidad con el amperaje requerido para su embarcación.",
                 "title" => "Electricidad",
-                "description" => "Servicio electricidad con el amperaje requerido para su embarcación."
+                "description" => "Servicio de electricidad con el amperaje requerido para su embarcación."
             ],
             [
                 "img" => "dist/images/police-icon.svg",
                 "alt" => "Servicios de inmigración para embarcaciones que llegan del extranjero.",
                 "title" => "Servicios de Inmigración",
-                "description" => "Servicios de inmigración para embarcaciones que llegan del extranjero."
+                "description" => "Servicios de inmigración para embarcaciones que llegan del extranjero que planean arribar y zarpar desde México."
             ],
+            
             [
-                "img" => "dist/images/bell-icon.svg",
-                "alt" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde.",
-                "title" => "Congierge",
-                "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
+                "img" => "dist/images/gas-icon.svg",
+                "alt" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua.",
+                "title" => "Suministro de Combustible",
+                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua, disponible de 7 de la mañana hasta las 7 de la noche."
             ],
             [
                 "img" => "dist/images/pipe-icon.svg",
@@ -112,41 +119,52 @@
                 "description" => "Servicio de desazolve los 365 días del año."
             ],
             [
+                "img" => "dist/images/van-icon.svg",
+                "alt" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun.",
+                "title" => "Transportación",
+                "description" => "Servicio de transportación gratuito en días específicos para nuestros clientes VIP hacia los Malls puntos más importantes de Cancún (Aplica restricciones)."
+            ],
+            [
                 "img" => "dist/images/warehouse-icon.svg",
                 "alt" => "Bodegas exclusivas para resguardo de artículos de su embarcación.",
                 "title" => "Almacenamiento",
                 "description" => "Bodegas exclusivas para resguardo de artículos de su embarcación."
             ],
-            [
-                "img" => "dist/images/van-icon.svg",
-                "alt" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun.",
-                "title" => "Transportación",
-                "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
-            ],
-            [
-                "img" => "dist/images/gas-icon.svg",
-                "alt" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua.",
-                "title" => "Suministro de Combustible",
-                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua."
-            ]
+            
+            
         ]
     ];
 
     $marinavvAmenity = [
         "title" => "V&V STORE",
         "description" => "Nuestra tienda V&V Store, cuenta con una amplia diversidad de productos como botanas, café, cervezas, vinos, agua, refresco, hielo, entre muchas otras. Contamos con servicio de entrega de los productos a tu embarcación para tu comodidad, además, de una sala de entretenimiento para los capitanes donde pueden tener descanso y recreación.",
-        "listFeatures" => [ "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados", "Billar", "Videojuegos", "Sala de recreación" ],
+        "listFeatures" => [ "Licores", "Refrescos", "Hielo", "Agua", "Cervezas", "Botanas", "Alimentos preparados" ],
+        "extra" => "
+            <p class='pr-auto pr-md-5' data-aos='fade-up'>Contamos con una Sala de Capitanes donde los capitanes que visitan nuestras instalaciones pueden tener tiempo de esparcimiento y descanso. Habilitada con los siguientes servicios:</p>
+            <div class='d-inline-block text-left' data-aos='fade-up'>
+                <ul class='column-count-2 check-list'>
+                    <li>Billar</li>
+                    <li>Videojuegos</li>
+                    <li>Música</li>
+                    <li>Futbolito</li>
+                    <li>Sky Premiere</li>
+                </ul>
+            </div>",
         "gallery" => [
             [
                 "img" => "dist/images/store-2.jpg",
                 "alt" => "Disfruta de los mejores articulos dentro de la Marina V&amp;V."
             ],
             [
-                "img" => "dist/images/store-1.jpg",
+                "img" => "dist/images/store-3.jpg",
                 "alt" => "Variedad de articulos en V&amp;V Store."
             ],
             [
-                "img" => "dist/images/store-3.jpg",
+                "img" => "dist/images/store-1.jpg",
+                "alt" => "Marina V&amp;V con variedad de articulos."
+            ],
+            [
+                "img" => "dist/images/store-4.jpg",
                 "alt" => "Marina V&amp;V con variedad de articulos."
             ]
         ],
@@ -166,7 +184,7 @@
 
     $marinavvLocation = [
         "title" => "UBICACIÓN",
-        "description" => "Marina V&V, se ubica frente a la segunda barrera de coral más larga del mundo, a una milla de isla mujeres nos hace por excelencia, la mejor marina de cancún. De igual forma nos puedes encontrar en Vialidad Paseo Mujeres Mz 1 Lote 1 Playa Mujeres, 77400. ",
+        "description" => "Las instalaciones de Marina V&V se encuentran en la Zona Continental de Isla Mujeres dentro del complejo privado Puerto Mujeres, a tan solo 30 minutos del Aeropuerto Internacional de Cancún. <br/> Dirección: Quintana Roo, Zona Continental Isla Mujeres, Smza 3, Mza 1, Lt 1, Calle Vialidad Paseo Mujeres, CP. 77400.",
         "inputPlaceholder" => "Escribe tu Ubicación Actual",
         "buttonText" => "Enviar",
         "location" => "Marina V&V",

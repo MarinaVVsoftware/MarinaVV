@@ -8,9 +8,35 @@
     
     $shipyardTitle = "SERVICIOS";
 
-    $shipyardDescription = "En nuestro Varadero disponemos de talleres propios para solventar cualquier problema de su embarcación, nuestro personal certificado esta calificado para ofrecerle siempre la mejor opción, Contamos con un amplia variedad de servicios, entre los cuales siempre encontrará el indicado para sus proyectos, cada uno de nuestros trabajos están garantizados por nuestro profesionalismo, experiencia y tecnología de punta.";
+    $shipyardDescription = "En nuestro Varadero disponemos de talleres propios para solventar cualquier problema de su embarcación, nuestro personal certificado está calificado para ofrecerle siempre la mejor opción. Contamos con una amplia variedad de servicios, entre los cuales siempre encontrará el indicado para sus proyectos, cada uno de nuestros trabajos están garantizados por nuestro profesionalismo, experiencia y tecnología de punta.";
 
     $shipyardServices = [
+        [
+            "title" => "Carpintería y Teka",
+            "icon" => "dist/images/toolbox-icon.svg",
+            "list" => [
+                "Remodelación de interiores en madera",
+                "Trabajos de barniz",
+                "Fabricación de muebles",
+                "Sustitución de paneles",
+                "Fabricación y colocación de pisos",
+                "Aplicación de silicón",
+                "Pulido de Teka",
+                "Limpieza de Teka",
+                "Fabricación de muebles en Teka",
+            ],
+            "imgCompare" => [
+                [
+                    "imgBefore" => "dist/images/teka-before.jpg",
+                    "altBefore" => "Problemas de propulsión."
+                ],
+                [
+                    "imgAfter" => "dist/images/teka-after.jpg",
+                    "altAfter" => "Trabajo de propulsión en el astillero de la Marina V&amp;V."
+                ]
+            ],
+            "right" => true
+        ],
         [
             "title" => "Electrónica y Electricidad",
             "icon" => "dist/images/flash2-icon.svg",
@@ -34,7 +60,7 @@
                 "Sistemas eléctricos en Gral",
                 "Luces submarinas",
                 "Winch de ancla y cabo",
-                "Alternaodres",
+                "Alternadores",
                 "Sonda y profundimetro",
                 "Radar",
                 "Radio VHF",
@@ -56,7 +82,7 @@
                     "altAfter" => "Trabajos de electricidad en Marina V&amp;V."
                 ]
             ],
-            "right" => true
+            "right" => false
         ],
         [
             "title" => "Propulsión",
@@ -79,7 +105,7 @@
                     "altAfter" => "Trabajo de propulsión en el astillero de la Marina V&amp;V."
                 ]
             ],
-            "right" => false
+            "right" => true
         ],
         [
             "title" => "Aire Acondicionado",
@@ -117,7 +143,7 @@
                     "altAfter" => "Trabajo de aire acondicionado en el astillero de la Marina V&amp;V."
                 ]
             ],
-            "right" => true
+            "right" => false
         ],
         [
             "title" => "Pintura y Fibra de Vidrio",
@@ -129,7 +155,6 @@
                 "Mantenimiento en equipos de audio",
                 "Pintura de costado",
                 "Pintura de fondo en general",
-                "Mantenimiento de bujes",
                 "Reparación y fabricación de fibra de vidrio",
             ],
             "imgCompare" => [
@@ -142,7 +167,7 @@
                     "altAfter" => "Trabajo de fibra de vidrio en el astillero de la Marina V&amp;V."
                 ]
             ],
-            "right" => false
+            "right" => true
         ],
         [
             "title" => "Servicio Especializado a Motores",
@@ -157,7 +182,6 @@
                 "Servicios preventivos",
                 "Electroválvulas",
                 "Sistemas Hidráulicos",
-                "Rectificado de flechas",
                 "Gatos hidráulicos",
                 "Orbitol",
                 "Plumas",
@@ -174,14 +198,14 @@
                     "altAfter" => "Trabajo de motor en el astillero de la Marina V&amp;V."
                 ]
             ],
-            "right" => true
+            "right" => false
         ],
 
     ];
 
     $shipyardContact = [
-        "title" => "COTIZAR SERVICIOS",
-        "description" => "Contáctanos ahora para mayor información en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
+        "title" => "SERVICIOS DE ASTILLERO",
+        "description" => "Contáctanos ahora para más información en nuestra Marina V&V, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/shipyard-banner.jpg",
         "alt" => "Astillero en la Marina V&amp;V.",
         "btn" => [

@@ -26,22 +26,11 @@ $contactLocation = [
 ];
 $contactVS = [
     "title" =>"VENTAS Y SERVICIOS" ,
-    "telefono" =>"+52(998) 240 8501",
+    "telefono" =>"(998) 234 0100",
     "email" => "info@marinavv.com",
-    "secondemail" => "reservas@marinavv.com"
+    "secondemail" => "recepcion@marinavv.com"
 ];
-$contactVE = [
-    "title" => "VENTAS DE EMBARCACIONES",
-    "telefono" => "+52(998) 240 8501",
-    "email" => "info@jrfmarine.com",
-    "secondemail" => "ventas@jrfmarine.com"
-];
-$contactAC = [
-    "title" => "ADMINISTRACIÓN Y COBRANZA",
-    "telefono"=>"+52(998) 234 0100",
-    "email"=> "contabilidad@marinavv.com",
-    "secondemail" => "contabilidad2@marinavv.com"
-];
+
 $direc = [
 "title" => "MARINA V&V",
 "Estado" => "Quintana Roo,",

@@ -99,6 +99,7 @@ import "../images/products-3.jpg";
 import "../images/store-1.jpg";
 import "../images/store-2.jpg";
 import "../images/store-3.jpg";
+import "../images/store-4.jpg";
 import "../images/banner-marina.jpg";
 import "../images/marker.png";
 import "../images/marinanovo-hero.jpg";
@@ -131,9 +132,19 @@ import "../images/shipyard/fibra-after.jpg";
 import "../images/shipyard/fibra-before.jpg";
 import "../images/shipyard/motor-after.jpg";
 import "../images/shipyard/motor-before.jpg";
+import "../images/shipyard/teka-after.jpg";
+import "../images/shipyard/teka-before.jpg";
 
 import "../images/yatch-background.jpg";
 import "../images/homeBackground.jpg";
 
 import "../images/shipyard/ac-after.jpg";
 import "../images/shipyard/ac-before.jpg";
+
+import "../images/computer.svg";
+import "../images/garbage-icon.svg";
+import "../images/toilet-icon.svg";
+import "../images/ice-icon.svg";
+import "../images/spray-icon.svg";
+import "../images/boat-icon.svg";
+import "../images/toolbox-icon.svg";

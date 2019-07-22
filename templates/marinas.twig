@@ -36,7 +36,7 @@
                 <p>{{ services.description }}</p>
             </div>
             <div class="container-fluid text-center">
-                <div class="row">
+                <div class="row justify-content-center">
                     {% for item in services.items %}
                         <div class="col-6 col-md-4 col-lg-3 mb-5" data-aos-duration="{{ loop.index }}00" data-aos="fade-up-right">
                             <img class="img-fluid lazy" alt="{{ item.alt }}" data-src="{{ item.img }}" style="max-height:50px; height:100%;">
@@ -73,6 +73,7 @@
                             {% endfor %}
                         </ul>
                     </div>
+                    {{ amenity.extra|raw }}
                 </div>
             </div>
         </section>
@@ -86,7 +87,7 @@
                 </div>
                 <div class="col-12 col-md-6 pt-2 px-3 pt-md-5 px-auto px-md-5 order-1 order-md-2 text-center text-md-left">
                     <h1>{{ location.title }}</h1>
-                    <p class="pr-auto pr-md-5">{{ location.description }}</p>
+                    <p class="pr-auto pr-md-5">{{ location.description|raw }}</p>
                     <form action="https://maps.google.com/maps" method="get" target="_blank">
                         <div class="form-row">
                             <div class="col-md-6">

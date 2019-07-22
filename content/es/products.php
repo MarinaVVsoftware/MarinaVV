@@ -78,7 +78,7 @@
     ];
 
     $productsNovoContact = [
-        "title" => "COTIZAR ESTADÍA",
+        "title" => "PREGUNTA POR NUESTROS PRODUCTOS",
         "description" => "Contáctanos ahora para adquirir productos con nosotros, nuestros asesores le ofrecerán atención personalizada.",
         "img" => "dist/images/products-banner.jpg",
         "alt" => "Prodcutos JRF",

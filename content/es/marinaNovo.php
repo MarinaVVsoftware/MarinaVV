@@ -6,7 +6,7 @@
         "alt" => "Novo Cancún, disfruta de los mejores lujos."
     ];
     
-    $marinaNovoDescription = "Marina V&V cuenta con la Marina Novo, nuestro puerto de lujo más importante. Ubicado en puerto Cancún, una de las zonas de mayor plusvalía de la ciudad. Arriba con nosotros y disfruta de la mejor comodidad, servicio, excelencia y cercanía del destino más popular de la Riviera Maya.";
+    $marinaNovoDescription = "Marina Novo ubicada en el complejo más exclusivo y de mayor plusvalía de Cancún, cuenta con espacios para embarcaciones de hasta 100 pies. Nuestro personal se encuentra las 24 horas del día dispuestos a ofrecerle servicios de excelencia y calidad para usted y su embarcación.";
 
     $marinaNovoGallery = [
         [
@@ -83,9 +83,9 @@
         "items" => [
             [
                 "img" => "dist/images/marina-icon.svg",
-                "alt" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies.",
+                "alt" => "Servicios de amarre están disponibles para embarcaciones hasta 100 pies.",
                 "title" => "Servicio de Amarre",
-                "description" => "Servicios de amarre están disponibles para embarcaciones hasta 240 pies."
+                "description" => "Servicios de amarre están disponibles para embarcaciones hasta 100 pies."
             ],
             [
                 "img" => "dist/images/flash-icon.svg",
@@ -94,10 +94,10 @@
                 "description" => "Servicio electricidad con el amperaje requerido para su embarcación."
             ],
             [
-                "img" => "dist/images/police-icon.svg",
-                "alt" => "Servicios de inmigración para embarcaciones que llegan del extranjero.",
-                "title" => "Servicios de Inmigración",
-                "description" => "Servicios de inmigración para embarcaciones que llegan del extranjero."
+                "img" => "dist/images/computer.svg",
+                "alt" => "Contamos con una agradable zona de equipos de cómputo y café a su servicio.",
+                "title" => "Ciber Café",
+                "description" => "Contamos con una agradable zona de equipos de cómputo y café a su servicio."
             ],
             [
                 "img" => "dist/images/bell-icon.svg",
@@ -106,10 +106,10 @@
                 "description" => "Servicio de VIP Concierge esta disponible para usted 365 días del año de 8-5 de tarde."
             ],
             [
-                "img" => "dist/images/pipe-icon.svg",
-                "alt" => "Servicio de desazolve los 365 días del año.",
-                "title" => "Desazolve",
-                "description" => "Servicio de desazolve los 365 días del año."
+                "img" => "dist/images/police-icon.svg",
+                "alt" => "Servicio de vigilancia y seguridad privada dentro de toda nuestra marina.",
+                "title" => "Vigilancia",
+                "description" => "Servicio de vigilancia y seguridad privada dentro de toda nuestra marina"
             ],
             [
                 "img" => "dist/images/warehouse-icon.svg",
@@ -119,22 +119,46 @@
             ],
             [
                 "img" => "dist/images/van-icon.svg",
-                "alt" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun.",
-                "title" => "Transportación",
-                "description" => "Free Shuttle service en días específicos para nuestros clientes VIP hacia los Malls de Cancun."
+                "alt" => "Transportación dentro de la ciudad.",
+                "title" => "Radio Taxi",
+                "description" => "Buscamos por usted transportación dentro de la ciudad."
             ],
             [
-                "img" => "dist/images/gas-icon.svg",
-                "alt" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua.",
-                "title" => "Suministro de Combustible",
-                "description" => "La única marina con estación de combustible que cuenta con una certificación de 0% de agua."
-            ]
+                "img" => "dist/images/spray-icon.svg",
+                "alt" => "Venta de Productos de Mantenimiento.",
+                "title" => "Venta de Productos de Mantenimiento",
+                "description" => "Conozca y adquiera en nuestro amplio catálogo de productos de mantenimiento."
+            ],
+            [
+                "img" => "dist/images/boat-icon.svg",
+                "alt" => "Reservación Astillero.",
+                "title" => "Reservación Astillero",
+                "description" => "Reserva directamente cualquier servicio en nuestro Astillero ubicado en la Marina V&V."
+            ],
+            [
+                "img" => "dist/images/garbage-icon.svg",
+                "alt" => "Servicio de recolección de basura periódica.",
+                "title" => "Recolección de Basura",
+                "description" => "Servicio de recolección de basura periódica."
+            ],
+            [
+                "img" => "dist/images/toilet-icon.svg",
+                "alt" => "Nuestras instalaciones cuentan con sanitarios disponibles 24/7.",
+                "title" => "Baños",
+                "description" => "Nuestras instalaciones cuentan con sanitarios disponibles 24/7."
+            ],
+            [
+                "img" => "dist/images/ice-icon.svg",
+                "alt" => "Venta de Hielo disponible 24/7.",
+                "title" => "Venta de Hielo",
+                "description" => "Venta de Hielo disponible 24/7."
+            ],
         ]
     ];
 
     $marinaNovoAmenity = [
         "title" => "UBICADA EN EL CORAZÓN DE CANCÚN",
-        "description" => "Nuestra Marina Novo Cancún, se ubica en la de mejor zona de la ciudad. Arriba con nosotros y disfruta de los mejores destinos que tiene la  Quintana Roo para usted. Nuestra marina se encuentra en pleno acceso a los lujosos condominios y al centro comercial de Puerto Cancún, además, a tan solo un par de minutos encontrarás los mejores centros comerciales de la ciudad y la Zona Hotelera.",
+        "description" => "Nuestra marina se encuentra en pleno acceso a los lujosos condominios y al centro comercial de Puerto Cancún, además, a tan solo un par de minutos encontrarás los mejores centros comerciales de la ciudad y la Zona Hotelera.",
         "gallery" => [
             [
                 "img" => "dist/images/marinatown-1.jpg",
@@ -165,7 +189,7 @@
 
     $marinaNovoLocation = [
         "title" => "UBICACIÓN",
-        "description" => "Nuestra Marina Novo Cancún, se ubica en la de mejor zona de la ciudad. Arriba con nosotros y disfruta de los mejores destinos que tiene la Quintana Roo para usted.",
+        "description" => "Nuestra Marina Novo, se ubica en la de mejor zona de la ciudad. Arriba con nosotros y disfruta de los mejores destinos que tiene la Quintana Roo para usted.",
         "inputPlaceholder" => "Escribe tu Ubicación Actual",
         "buttonText" => "Enviar",
         "location" => "Marina Novo Cancún",
