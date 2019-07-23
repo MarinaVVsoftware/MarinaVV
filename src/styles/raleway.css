@@ -5,6 +5,7 @@
   src: url("/dist/fonts/raleway-regular.woff2") format("woff2");
   src: url("/dist/fonts/raleway-regular.woff") format("woff");
   src: url("/dist/fonts/raleway-regular.ttf") format("truetype");
+  src: url("/dist/fonts/raleway-regular.svg") format("svg");
   font-style: normal;
   font-variant: normal;
 }
