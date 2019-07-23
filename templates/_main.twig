@@ -71,71 +71,65 @@
                                 {% endif %}
                             {% endfor %}
                             {#<li class="nav-item px-3 py-2">
-                            <<<<<<< HEAD
-                                                                                                                    <a class="nav-link pointer" data-language="{{ languageToChange }}" id="lang">
-                                                                                                                        <span>{{ languageToChange|upper }}</span>
-                                                                                                                    </a>
-                                                                                                                </li>#}
-                            =======
-                            <a class="nav-link pointer" data-language="{{ languageToChange }}" id="lang">
-                                <span>{{ languageToChange|upper }}</span>
-                            </a>
-                        </li>#}
-                        >>>>>>> development
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        {% block body %}{% endblock %}
-
-        <footer class="background-strongBlue px-0">
-            <div class="container-fluid text-center pt-5">
-                <img alt="" src="dist/images/marinavv-logo.svg" width="125">
-                <hr class="my-3 border-red" size="2" width="150">
-                <div>
-                    <a aria-label="Instagram" class="mx-3" href="https://www.instagram.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
-                        <img alt="Instagram Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/instagram-logo.png" width="23">
-                    </a>
-                    <a aria-label="Facebook" class="mx-3" href="https://www.facebook.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
-                        <img alt="Facebook  Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/facebook-logo.png" width="12">
-                    </a>
-                    <a aria-label="Youtube" class="mx-3" href="https://www.youtube.com/channel/UCMjI6kHxXKuX7XVybEX8Onw" rel="nofollow noreferrer noopener" target="_blank">
-                        <img alt="Youtube  Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/youtube-logo.png" width="25">
-                    </a>
-                </div>
-                <div class="my-3 py-3">
-                    <p class="text-white">{{ footer.address }}</p>
-                    <div>
-                        <p class="text-white d-inline-block mx-3">+52 (998) 234 01 0</p>
-                        <p class="text-white d-inline-block mx-3">info@marinavv.com</p>
+                                                                    <a class="nav-link pointer" data-language="{{ languageToChange }}" id="lang">
+                                                                        <span>{{ languageToChange|upper }}</span>
+                                                                    </a>
+                                                                </li>#}
+                        </ul>
                     </div>
                 </div>
-                <div class="mb-2">
-                    <ul class="nav justify-content-center">
-                        {% for item in footer.menu %}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ item.link }}">{{ item.text }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
+            </nav>
+            {% block body %}{% endblock %}
+
+            <footer class="background-strongBlue px-0">
+                <div class="container-fluid text-center pt-5">
+                    <img alt="" src="dist/images/marinavv-logo.svg" width="125">
+                    <hr class="my-3 border-red" size="2" width="150">
+                    <div>
+                        <a aria-label="Instagram" class="mx-3" href="https://www.instagram.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="Instagram Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/instagram-logo.png" width="23">
+                        </a>
+                        <a aria-label="Facebook" class="mx-3" href="https://www.facebook.com/vvmarinaoficial/" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="Facebook  Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/facebook-logo.png" width="12">
+                        </a>
+                        <a aria-label="Youtube" class="mx-3" href="https://www.youtube.com/channel/UCMjI6kHxXKuX7XVybEX8Onw" rel="nofollow noreferrer noopener" target="_blank">
+                            <img alt="Youtube  Marina V&amp;V" class="img-fluid lazy" data-src="dist/images/youtube-logo.png" width="25">
+                        </a>
+                    </div>
+                    <div class="my-3 py-3">
+                        <p class="text-white">{{ footer.address }}</p>
+                        <div>
+                            <p class="text-white d-inline-block mx-3">+52 (998) 234 01 0</p>
+                            <p class="text-white d-inline-block mx-3">info@marinavv.com</p>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <ul class="nav justify-content-center">
+                            {% for item in footer.menu %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ item.link }}">{{ item.text }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="container-fluid background-strongGray">
-                <div class="container px-0">
-                    <small class="m-0 text-white">MARINA V&amp;V 2019</small>
+                <div class="container-fluid background-strongGray">
+                    <div class="container px-0">
+                        <small class="m-0 text-white">MARINA V&amp;V 2019</small>
+                    </div>
                 </div>
-            </div>
-        </footer>
-        {% block script %}{% endblock %}
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ4i3-kes4_0vLQcrMHN6-QyVKdTSfJ0k&libraries=places&output=embed"></script>
-        <script async defer src="./dist/fonts.js?v=190701-1310"></script>
-        <script defer src="./dist/styles.js?v=190701-1328"></script>
-        <script async defer src="./dist/images.js?v=190701-1328"></script>
-        <script defer src="./dist/scripts.js?v=190701-1328"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function (e) {
-                document.body.className = '';
-            });
-        </script>
-    {% endspaceless %}
+            </footer>
+            {% block script %}{% endblock %}
+            <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ4i3-kes4_0vLQcrMHN6-QyVKdTSfJ0k&libraries=places&output=embed"></script>
+            <script async defer src="./dist/fonts.js?v=190701-1410"></script>
+            <script defer src="./dist/styles.js?v=190701-1428"></script>
+            <script async defer src="./dist/images.js?v=190701-1428"></script>
+            <script defer src="./dist/scripts.js?v=190701-1428"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function (e) {
+                    document.body.className = '';
+                });
+            </script>
+        {% endspaceless %}
+    </body>
 </html></body></html>
