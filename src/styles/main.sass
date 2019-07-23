@@ -205,6 +205,11 @@ h2
     width: 100%
     margin: 0 auto
 
+.grid-thumbnail
+    transition: opacity 180ms
+    &:hover
+        opacity: 0.5
+
 .grid:after
     content: ''
     display: block
@@ -239,12 +244,6 @@ h2
     display: flex
     justify-content: center
     align-items: center
-
-.masonry-hover
-    opacity: 1
-    transition: all 150ms linear
-    &:hover
-        opacity: 0.6
 
 .column-count-2
     column-count: 2 !important
