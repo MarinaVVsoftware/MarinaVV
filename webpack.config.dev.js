@@ -74,7 +74,7 @@ const config = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
-        exclude: /(node_modules)/,
+        exclude: [/fonts/, /node_modules/],
         use: [
           {
             loader: "file-loader",
@@ -98,14 +98,14 @@ const config = {
         ]
       },
       {
-        test: /\.(eot|woff|ttf|woff2)(\?v=\d+\.\d+\.\d+)?$/,
-        exclude: /(node_modules)/,
+        test: /\.(eot|woff|ttf|woff2|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        exclude: [/images/, /node_modules/],
         use: [
           {
             loader: "file-loader",
             options: {
-              name: "[name].[ext]",
-              outputPath: "fonts/"
+              outputPath: "fonts/",
+              name: "[name].[ext]"
             }
           }
         ]

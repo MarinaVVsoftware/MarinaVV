@@ -5,6 +5,7 @@
   src: url("/dist/fonts/lora-regular.woff2") format("woff2");
   src: url("/dist/fonts/lora-regular.woff") format("woff");
   src: url("/dist/fonts/lora-regular.ttf") format("truetype");
+  src: url("/dist/fonts/lora-regular.svg") format("svg");
   font-style: normal;
   font-variant: normal;
   font-weight: 100;
