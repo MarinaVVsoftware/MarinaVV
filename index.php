@@ -15,5 +15,4 @@
     ];
     $template = $twig->load('index.twig');
     echo $template->render($params);
-    /* Hola */
 ?>
