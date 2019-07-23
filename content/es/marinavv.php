@@ -184,7 +184,7 @@
 
     $marinavvLocation = [
         "title" => "UBICACIÓN",
-        "description" => "Las instalaciones de Marina V&V se encuentran en la Zona Continental de Isla Mujeres dentro del complejo privado Puerto Mujeres, a tan solo 30 minutos del Aeropuerto Internacional de Cancún. <br/> Dirección: Quintana Roo, Zona Continental Isla Mujeres, Smza 3, Mza 1, Lt 1, Calle Vialidad Paseo Mujeres, CP. 77400.",
+        "description" => "Las instalaciones de Marina V&V se encuentran en la Zona Continental de Isla Mujeres dentro del complejo privado Puerto Mujeres, a tan solo 30 minutos del Aeropuerto Internacional de Cancún. <br/> Dirección: Quintana Roo, Zona Continental Isla Mujeres, Smza 3, Mza 1, Lt 1, Calle Vialidad Paseo Mujeres, CP. 77400. <br/> 21°14'23.5\"N 86°47'58.1\"W",
         "inputPlaceholder" => "Escribe tu Ubicación Actual",
         "buttonText" => "Enviar",
         "location" => "Marina V&V",

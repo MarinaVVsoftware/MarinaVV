@@ -1,8 +1,5 @@
 {% extends "_main.twig" %}
 {% import "./macros/contactBanner.twig" as ContactBanner %}
-{% block head %}
-    <meta content="{{ description }}" name="Description">
-{% endblock %}
 {% block body %}
     <header class="hero">
         <picture>
@@ -21,7 +18,7 @@
         <section class="container-fluid py-5 my-md-5" id="gallery">
             <div class="grid">
                 {% for item in gallery %}
-                    <div class="grid-item {{ item.class }}">
+                    <div class="grid-item {{ item.class }} grid-thumbnail">
                         <a data-fancybox="gallery" href="{{ item.img }}">
                             <img class="w-100 h-100 img-fluid" alt="{{ item.alt }}" src="{{ item.imgThumbnail }}">
                         </a>
